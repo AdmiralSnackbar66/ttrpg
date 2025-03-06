@@ -1,0 +1,28 @@
+---
+name: Bat - Giant Albino
+size: Huge
+type: Monstrosity
+environment: 
+hp: 
+ac: 
+initiative: 
+alignment: 
+legendary: 
+lair: 
+unique: 
+cr: 3
+tags: 
+source: "Creature Codex: 52"
+url: ""
+---
+# [[Bat - Giant Albino]]
+
+[Source](zotero://open-pdf/library/items/NTNKJRHG?page=52) from [[Creature Codex]]
+
+```pdf
+{
+	"url": "[[Creature Codex.pdf]]",
+	"page": [52]
+}
+```
+

@@ -1,0 +1,28 @@
+---
+name: Simian - kapi
+size: Medium
+type: Humanoid
+environment: 
+hp: 
+ac: 
+initiative: 
+alignment: 
+legendary: 
+lair: 
+unique: 
+cr: 0.5
+tags: 
+source: "Creature Codex: 338"
+url: ""
+---
+# [[Simian - kapi]]
+
+[Source](zotero://open-pdf/library/items/NTNKJRHG?page=338) from [[Creature Codex]]
+
+```pdf
+{
+	"url": "[[Creature Codex.pdf]]",
+	"page": [338]
+}
+```
+
