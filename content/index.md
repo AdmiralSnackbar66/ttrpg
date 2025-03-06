@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Dungeon Diaries
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This site is dedicated to documenting my DnD campaign and everything related to it
