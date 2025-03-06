@@ -2,8 +2,8 @@
 ---
 title: "Blog"
 draft: false
-tags: blog
-  - 
+tags:
+  - blog
 ---
 ```
 
