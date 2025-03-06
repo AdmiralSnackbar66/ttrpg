@@ -1,5 +1,5 @@
 ---
-title: index
+title: Home
 draft: false
 tags:
 ---
