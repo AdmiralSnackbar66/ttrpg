@@ -79,21 +79,6 @@ imageStructure: (
 
 Now, you can let your creativity flow and design your own image component! For reference and some cool tips, you can check how the markup for the default image looks.
 
-> [!example] Examples
->
-> Here are some examples for markup you may need to get started:
->
-> - Get a theme color
->
->   `cfg.theme.colors[colorScheme].<colorName>`, where `<colorName>` corresponds to a key in `ColorScheme` (defined at the top of `quartz/util/theme.ts`)
->
-> - Use the page title/description
->
->   `<p>{title}</p>`/`<p>{description}</p>`
->
-> - Use a font family
->
->   Detailed in the Fonts chapter below
 
 ---
 
