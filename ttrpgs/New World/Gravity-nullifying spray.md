@@ -1,3 +1,0 @@
-  - *Level*: 1d6+2
-  - *Usable*: Spray canister. 
-  - *Effect*: A nonliving object up to the size of a human  (two humans if the cypher is level 6 or higher) sprayed by this cypher floats 1d20 feet in the air permanently and no longer has weight if carried, though it needs to be strapped down.

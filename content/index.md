@@ -3,4 +3,8 @@ title: index
 draft: false
 tags:
 ---
-This site is dedicated to documenting my DnD campaign and everything related to it
+Welcome to Dungeon Diaries.
+
+This website is primarily dedicated to my DnD session and will hopefully be very useful to my players.
+
+It also hosts a blog/journal which I hope to keep updated with new posts every day.

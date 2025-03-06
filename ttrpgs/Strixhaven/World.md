@@ -1,12 +1,12 @@
 ---
-world: New World
-campaign: New World
+world: Strixhaven
+campaign: Strixhaven
 status: active
-role: player
-system:
+role: GM
+system: D&D 5e
 type: world
 ---
-t# The World of New World
+# The World of Strixhaven
 
 ## Player Characters
 
@@ -16,17 +16,14 @@ t# The World of New World
 
 *Put your cursor where the session link should be. Then, from the Command Palette (CMD/CTRL+P), select either QuickAdd: Macro - Add session-player or QuickAdd: Macro - Add session-gm*.
 
-[[001_20230115 It begins]]
-
 
 
 
 ```dataview
-table summary as "Summary" from "ttrpgs/New World"
+table summary as "Summary" from "ttrpgs/Strixhaven"
 where contains(type,"session")
 SORT sessionNum ASC
 ```
-
 
 
 ## Truths about the campaign/world
@@ -39,13 +36,13 @@ SORT sessionNum ASC
 ## Factions
 
 ```dataview
-TABLE description as "Description" from "ttrpgs/New World"
+TABLE description as "Description" from "ttrpgs/Strixhaven"
 WHERE contains(lower(type),"faction")
 ```
 
 ## Custom rules
 
 - [[Character options]]
-- [[House rules]]
+- [[ttrpgs/Strixhaven/House Rules|House Rules]]
 
 ## [[Safety Tools]]

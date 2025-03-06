@@ -1,4 +1,0 @@
-- *Level*: 1d6+2
-- *Wearable*: Belt, wristband, ring, full bodysuit
-- *Usable*: Complex device, handheld device
-- *Effect*:  User teleports up to 100 × the cypher  level in feet (30 × cypher level in m) to a location they can see. They arrive safely  with their possessions but cannot take  anything else with them.
