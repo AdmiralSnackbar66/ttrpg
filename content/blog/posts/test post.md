@@ -1,10 +1,10 @@
+
 ```
----
 title: "Blog"
 draft: false
-tags:
-  - blog
----
+tags: blog
 ```
+
+---
 
 This is a test post
