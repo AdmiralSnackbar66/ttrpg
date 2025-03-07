@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Explorer(),
-    Component.RecentNotes({ title: "Recent blog posts" })
+    Component.RecentNotes({ title: "Recent blog posts" }), 
   ],
   right: [
     
