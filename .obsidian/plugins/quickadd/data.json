@@ -24,7 +24,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "4f34e866-dfd4-4aaf-9bd5-28839f569026",
