@@ -11,10 +11,14 @@
             "id": "74b354e962a1b292",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/posts/Mobile blogging.. .md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Mobile blogging.."
             }
           }
         ]
@@ -197,6 +201,7 @@
   },
   "active": "74b354e962a1b292",
   "lastOpenFiles": [
+    "content/blog/posts/Mobile blogging.. .md",
     "templates/world.md",
     "templates/new-blog.md",
     "content/blog/posts/{VALUE}.md",
