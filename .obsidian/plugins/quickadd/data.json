@@ -84,11 +84,11 @@
       "id": "a61fd08a-ad36-45a6-8824-ff71fa5757f1",
       "name": "Template - Add blog post",
       "type": "Template",
-      "command": false,
-      "templatePath": "",
+      "command": true,
+      "templatePath": "templates/new-blog.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "content/blog/posts/{VALUE}.md"
       },
       "folder": {
         "enabled": false,
@@ -103,7 +103,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
