@@ -82,7 +82,7 @@
       "templatePath": "templates/new-blog.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "content/blog/posts/{VALUE}.md"
+        "format": "content/blog/posts/{{value}}.md"
       },
       "folder": {
         "enabled": false,
