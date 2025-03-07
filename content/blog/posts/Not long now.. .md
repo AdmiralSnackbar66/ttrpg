@@ -7,4 +7,4 @@ tags:
 date: 2025-03-07
 ---
 Won't be long now until we see this.. 
-https://youtu.be/8m_D_DaDI1c?feature=shared
+![](https://youtube.com/watch?v=8m_D_DaDI1c&si=XW-koZ6ulYXhPnrG) 
