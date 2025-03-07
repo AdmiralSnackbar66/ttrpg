@@ -77,8 +77,8 @@
       "id": "b4640bcd-4b81-44cb-8848-495898fe8b62",
       "name": "Macro - Add blog post",
       "type": "Macro",
-      "command": false,
-      "macroId": ""
+      "command": true,
+      "macroId": "947117a9-577c-45b2-9fe8-5c876e53f458"
     }
   ],
   "macros": [
