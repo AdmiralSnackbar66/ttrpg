@@ -5,5 +5,6 @@ public
 prof
 tsconfig.tsbuildinfo
 private/
+.obsidian
 .replit
 replit.nix
