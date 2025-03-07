@@ -8,4 +8,5 @@ Rather than this being a seperated page or blog about our trip to disney it will
 ```dataview
 Table file.name as "Blog Post", file.ctime as "Date"
 FROM #Disney
+Sort file.ctime
 ```
