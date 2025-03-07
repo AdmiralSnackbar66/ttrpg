@@ -1,5 +1,5 @@
 ---
-title: 2925.03.06 - My first blog post
+title: My first blog post
 draft: false
 tags:
   - blog
