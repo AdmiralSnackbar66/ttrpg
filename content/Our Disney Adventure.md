@@ -3,4 +3,4 @@ title: Our Disney Adventure
 draft: false
 date: 2025-03-07
 ---
-Coming soon....
+Coming soon.... trip begins 08-02-2025 :)
