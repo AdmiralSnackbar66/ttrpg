@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3ca0d1426a2ab183",
+        "id": "76d4ed1bf66bc3d9",
         "type": "tabs",
         "children": [
           {
-            "id": "83ddd6fc6f9ad075",
+            "id": "e7cf9a420d25942e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/posts/A little bit more ....md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "A little bit more ..."
+              "title": "New tab"
             }
           }
         ]
@@ -199,11 +195,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "83ddd6fc6f9ad075",
+  "active": "e7cf9a420d25942e",
   "lastOpenFiles": [
-    "content/Our Disney Adventure.md",
     "content/blog/posts/A little bit more ....md",
     "content/blog/TTRPGs Games Index 1.md",
+    "content/Our Disney Adventure.md",
     "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
     "content/blog/posts/Mobile blogging.. .md",
