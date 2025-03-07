@@ -1,0 +1,36 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [],
+  "deletedCalendars": [],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": null,
+  "eventPreview": false,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 8,
+    "beta": null
+  },
+  "debug": false,
+  "askedToMoveFC": true,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": null,
+  "paths": [],
+  "currentCalendar": null,
+  "settingsToggleState": {
+    "calendars": false,
+    "events": false,
+    "advanced": true
+  },
+  "showIntercalary": false
+}

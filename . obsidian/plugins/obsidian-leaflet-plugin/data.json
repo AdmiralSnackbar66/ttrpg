@@ -1,0 +1,105 @@
+{
+  "mapMarkers": [
+    {
+      "id": "vault-of-bones",
+      "lastAccessed": 1674692294691,
+      "markers": [
+        {
+          "id": "ID_a9f88aeb2959",
+          "type": "thumbtack",
+          "loc": [
+            -4.80810546875,
+            1.138641357421875
+          ],
+          "link": "Vault of Bones#Foyer",
+          "layer": "vault-of-bones.png",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.19829400510204082,
+            0.8474182444061962
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9a8593a98b8",
+          "type": "thumbtack",
+          "loc": [
+            -2.63616943359375,
+            0.931549072265625
+          ],
+          "layer": "vault-of-bones.png",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.16222895408163265,
+            0.46461919104991395
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "ttrpgs/New World/Vault of Bones.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#ffffff",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "thumbtack",
+      "iconName": "thumbtack",
+      "color": "#0817e2",
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "5.5.0",
+  "version": {
+    "major": 5,
+    "minor": 5,
+    "patch": 0
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>.",
+  "defaultTileSubdomains": "a,b,c"
+}

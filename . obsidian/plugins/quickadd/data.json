@@ -1,0 +1,266 @@
+{
+  "choices": [
+    {
+      "id": "2909bec8-1788-4692-bd75-a4925cb913e2",
+      "name": "Template - Add TTRPG world",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/world.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "TTRPGs/{{VALUE}}/World"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "4f34e866-dfd4-4aaf-9bd5-28839f569026",
+      "name": "Template - Add DB item",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/dbitem.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "4f9d1f2c-7a6b-42ee-9e9c-124e5dbaf3ad",
+      "name": "Macro - Create new dungeon23 room",
+      "type": "Macro",
+      "command": true,
+      "macroId": "0ea59205-7595-4d86-b9e3-d09f70dd3f83"
+    },
+    {
+      "id": "69419a07-6a21-40ff-b309-812e65dee6bc",
+      "name": "Macro - Add session-player",
+      "type": "Macro",
+      "command": true,
+      "macroId": "9d8c7941-6068-4c97-b87f-5385b381c576"
+    },
+    {
+      "id": "1442fd36-6dcc-4de4-a871-fb445f6937b1",
+      "name": "Macro - Add session-gm",
+      "type": "Macro",
+      "command": true,
+      "macroId": "88a6462d-edce-4abb-bd1f-4b0bc3500df9"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Create a dungeon room",
+      "id": "0ea59205-7595-4d86-b9e3-d09f70dd3f83",
+      "commands": [
+        {
+          "name": "Add new room to Dungeon23 list",
+          "type": "NestedChoice",
+          "id": "4ff83c80-4374-4609-abb3-b0761a91fe0b",
+          "choice": {
+            "id": "12ac9235-d9c8-4953-b663-f1ac62769ed6",
+            "name": "Add new room to Dungeon23 list",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Dungeon23/Dungeon23 Megadungeon.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [[{{date:YYYY-MM-DD}} {{VALUE:title}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Locations",
+              "insertAtEnd": true,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": false
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Create new dungeon room page",
+          "type": "NestedChoice",
+          "id": "8ee12b69-501c-4998-9647-4706fac5c130",
+          "choice": {
+            "id": "25405a32-92e5-47e0-8919-03cbfc67ae39",
+            "name": "Create new dungeon room page",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/dungeon23 room.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{date:YYYY-MM-DD}} {{VALUE:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Dungeon23"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create session-player",
+      "id": "9d8c7941-6068-4c97-b87f-5385b381c576",
+      "commands": [
+        {
+          "name": "getThisGameFilename",
+          "type": "UserScript",
+          "id": "84253b2f-6673-4c0d-8266-205c7a4d8e27",
+          "path": "scripts/getThisGameFilename.js",
+          "settings": {}
+        },
+        {
+          "name": "Create new file",
+          "type": "NestedChoice",
+          "id": "674f3826-55a7-411e-8707-e5c1dd170c48",
+          "choice": {
+            "id": "cd1eccd6-ec81-4716-b6ba-79352eb95fae",
+            "name": "Create new file",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/session-player.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:thisGameFilename}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "{{VALUE:folderName}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": true,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create session-gm",
+      "id": "88a6462d-edce-4abb-bd1f-4b0bc3500df9",
+      "commands": [
+        {
+          "name": "getThisGameFilename",
+          "type": "UserScript",
+          "id": "5490fb05-05ef-45d0-9329-c44750416154",
+          "path": "scripts/getThisGameFilename.js",
+          "settings": {}
+        },
+        {
+          "name": "Create file",
+          "type": "NestedChoice",
+          "id": "a52d5104-ce59-4b13-979b-840ee2015a30",
+          "choice": {
+            "id": "7e9528d1-9470-4ef9-b672-6b47a3d8f012",
+            "name": "Create file",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/session-gm.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:thisGameFilename}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "{{VALUE:folderName}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.19.4",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

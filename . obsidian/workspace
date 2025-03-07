@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "e7b31e31f78864c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9ed440adf627717",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Vault Changelog.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea494ad91b1e9365",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ec548c783c26a71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5ef4cb7f7786d8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ae15148b6be855a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "196c48cf70d47948",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 224.50246810913086
+  },
+  "right": {
+    "id": "921c6489256072a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "06557d9bc217f9e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd4fb4d4897d74fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "83c2ac8fbe23840d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vault Changelog.md"
+              }
+            }
+          },
+          {
+            "id": "54a53a37c8467996",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb357b298dec45be",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "b63ad19162950af2",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "97e0654147d321e7",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "6ba16cfde8305489",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3582acde023b2bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vault Changelog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "550333a7be8b4b00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vault Changelog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c9ed440adf627717",
+  "lastOpenFiles": [
+    "test/Observability.md",
+    "test/Monitoring.md",
+    "test/Instrumentation.md",
+    "Excalibrain/excalibrain.md",
+    "templates/monthly.md",
+    "Observability.md",
+    "ttrpgs/TTRPGs Games Index.md",
+    "ttrpgs/Sample World/World.md",
+    "workflows/Taking notes for TTRPGs.md",
+    "Vault Changelog.md"
+  ]
+}

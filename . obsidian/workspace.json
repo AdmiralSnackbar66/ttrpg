@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "e7b31e31f78864c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8fcabed6268df83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79f99b145abd863c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Readme"
+            }
+          },
+          {
+            "id": "c7f806c37fd3fb7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ttrpgs/TTRPGs Games Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TTRPGs Games Index"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea494ad91b1e9365",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ec548c783c26a71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5ef4cb7f7786d8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5ae15148b6be855a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Big Bad Creature",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "196c48cf70d47948",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "951b0002b798667f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332
+  },
+  "right": {
+    "id": "921c6489256072a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "06557d9bc217f9e4",
+        "type": "tabs",
+        "dimension": 56.855345911949684,
+        "children": [
+          {
+            "id": "cd4fb4d4897d74fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "83c2ac8fbe23840d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ttrpgs/TTRPGs Games Index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TTRPGs Games Index"
+            }
+          },
+          {
+            "id": "6123e4d66823a450",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "657eb377448a9268",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dice-roller-icon",
+              "title": "Dice Roller"
+            }
+          },
+          {
+            "id": "6aa4c28a618a43b1",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "e6ffe6a669c9a415",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "6ba16cfde8305489",
+        "type": "tabs",
+        "dimension": 43.144654088050316,
+        "children": [
+          {
+            "id": "a3582acde023b2bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ttrpgs/TTRPGs Games Index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TTRPGs Games Index"
+            }
+          },
+          {
+            "id": "550333a7be8b4b00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ttrpgs/TTRPGs Games Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TTRPGs Games Index"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 431,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "dbfolder:Create a new database table": false,
+      "calendarium:Open Calendarium": false
+    }
+  },
+  "active": "c7f806c37fd3fb7d",
+  "lastOpenFiles": [
+    "TTRPGs/Test 2025-01-15/World.md",
+    "ttrpgs/Test 2025-01-15/World.md",
+    "ttrpgs/Test 2025-01-15",
+    "ttrpgs/TTRPGs Games Index.md",
+    "TTRPGs/Test 2025-01-15",
+    "templates/world.md",
+    "Readme.md",
+    "ttrpgs/New World/World.md",
+    "Vault Changelog.md",
+    "ttrpgs/Obsidia/World.md",
+    "ttrpgs/Obsidia/002_20230409.md",
+    "workflows/Using monster files.md",
+    "monsters/5e/Aalpamac.md",
+    "sources/pdfs",
+    "workflows/Using Table of Contents for sourcebooks.md",
+    "monsters/5e/A-mi-kuk.md",
+    "sources/Pathfinder/2e/Secrets of Magic.md",
+    "workflows/Creating adventures.md",
+    "sources/Dungeons and Dragons/5e/Monster Manual/Monster Manual.md",
+    "sources/List of Sources.md",
+    "sources/Any/Oracle Story Generator.md",
+    "sources/Any",
+    "sources/13th Age/13th Age.md",
+    "sources/Dungeons and Dragons/5e/Tome of Mystical Tattoos/Tome of Mystical Tattoos.md",
+    "sources/Pathfinder/2e/Jewel of the Indigo Isles.md",
+    "sources/Pathfinder/2e",
+    "sources/Pathfinder",
+    "sources/Dungeons and Dragons/5e/Tome of Mystical Tattoos",
+    "sources/Dungeons and Dragons/5e/Limitless Heroics/Limitless Heroics.md",
+    "sources/Dungeons and Dragons/5e/Limitless Heroics",
+    "sources/Cypher/Numenera Discovery.md",
+    "sources/Dungeons and Dragons/5e/Monster Manual",
+    "sources/Dungeons and Dragons/5e/MCDM/Arcadia/Arcadia 19.md",
+    "sources/Dungeons and Dragons/5e/MCDM/Arcadia/Arcadia Index.md",
+    "sources/Dungeons and Dragons/5e/MCDM/Arcadia/Arcadia 8.md",
+    "sources/Dungeons and Dragons/5e/MCDM/Arcadia"
+  ]
+}
