@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "55e88a71b03d0a0a",
+        "id": "077e765f085147a4",
         "type": "tabs",
         "children": [
           {
-            "id": "74b354e962a1b292",
+            "id": "fea456f421cfcf6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/posts/Mobile blogging.. .md",
+                "file": "content/blog/posts/Not long now.. .md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mobile blogging.."
+              "title": "Not long now.."
             }
           }
         ]
@@ -195,11 +195,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "74b354e962a1b292",
+  "active": "fea456f421cfcf6c",
   "lastOpenFiles": [
+    "content/blog/posts/Not long now.. .md",
     "content/blog/posts/Mobile blogging.. .md",
     "templates/world.md",
     "templates/new-blog.md",
