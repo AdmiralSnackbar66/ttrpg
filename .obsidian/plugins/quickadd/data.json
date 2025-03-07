@@ -253,7 +253,48 @@
     {
       "name": "Create blog-post",
       "id": "947117a9-577c-45b2-9fe8-5c876e53f458",
-      "commands": [],
+      "commands": [
+        {
+          "name": "getThisBlogFilename",
+          "type": "UserScript",
+          "id": "7ca474c4-e144-4610-ac20-f053d7a772fe",
+          "path": "scripts/getThisBlogFilename.js",
+          "settings": {}
+        },
+        {
+          "name": "New Blog Post Template",
+          "type": "NestedChoice",
+          "id": "4f3e6930-4d63-4788-95ca-2792fef0b0fd",
+          "choice": {
+            "id": "0b7b4d1f-96ec-4b01-bed3-a95614f04185",
+            "name": "New Blog Post Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/new-blog.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "content/blog/posts/{VALUE}.md"
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
       "runOnStartup": false
     }
   ],
