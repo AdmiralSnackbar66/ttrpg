@@ -3,7 +3,6 @@ title: A little bit more ...
 draft: false
 tags:
   - blog
-  - Disney
 date: 2025-03-07
 ---
 So Ive made some changes to the way I update this blog and am currently in the process of teaking the design..
