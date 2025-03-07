@@ -33,7 +33,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": true
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -191,6 +191,6 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d2c9055a8a0ec0b3",
+  "active": "956d5a9a84702ebf",
   "lastOpenFiles": []
 }
