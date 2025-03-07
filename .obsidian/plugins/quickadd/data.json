@@ -249,6 +249,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "Create blog-post",
+      "id": "947117a9-577c-45b2-9fe8-5c876e53f458",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
