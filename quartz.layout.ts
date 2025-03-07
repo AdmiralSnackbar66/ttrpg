@@ -1,10 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-plugins: {
-Plugin:CreatedModifiedDate
-} 
-
 
 
 // components shared across all pages
@@ -33,7 +29,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Explorer(),
-    Component.RecentNotes({ title: "Recent blog posts" }), 
   ],
   right: [
     
