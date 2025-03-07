@@ -1,6 +1,9 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+plugins: {
+Plugin:CreatedModifiedDate
+} 
 
 Component.RecentNotes({ title: "Recent blog posts" })
 
