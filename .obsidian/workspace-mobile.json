@@ -11,14 +11,10 @@
             "id": "0ce4cf2a70480f58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/posts.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "posts"
+              "title": "New tab"
             }
           }
         ]
@@ -155,7 +151,7 @@
   },
   "active": "0ce4cf2a70480f58",
   "lastOpenFiles": [
-    "blog/posts 1.md",
-    "blog/posts.md"
+    "blog/posts.md",
+    "blog/posts 1.md"
   ]
 }
