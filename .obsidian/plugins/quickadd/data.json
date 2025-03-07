@@ -79,6 +79,34 @@
       "type": "Macro",
       "command": true,
       "macroId": "947117a9-577c-45b2-9fe8-5c876e53f458"
+    },
+    {
+      "id": "a61fd08a-ad36-45a6-8824-ff71fa5757f1",
+      "name": "Template - Add blog post",
+      "type": "Template",
+      "command": false,
+      "templatePath": "",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
