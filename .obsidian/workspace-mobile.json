@@ -195,8 +195,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "dbfolder:Create a new database table": false,
-      "calendarium:Open Calendarium": false
+      "dbfolder:Create a new database table": false
     }
   },
   "active": "83ddd6fc6f9ad075",
