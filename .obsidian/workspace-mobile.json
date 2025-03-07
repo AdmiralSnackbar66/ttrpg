@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/posts/{VALUE}.md",
+                "file": "templates/world.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "{VALUE}"
+              "title": "world"
             }
           }
         ]
@@ -175,6 +175,7 @@
         "type": "leaf",
         "state": {
           "type": "CALENDARIUM",
+          "state": {},
           "icon": "CALENDARIUM",
           "title": "Calendarium"
         }
@@ -200,6 +201,7 @@
   },
   "active": "2d53ff38035271d6",
   "lastOpenFiles": [
-    "content/blog/posts/{VALUE}.md"
+    "content/blog/posts/{VALUE}.md",
+    "content/blog/posts/Mobile blogging.md"
   ]
 }
