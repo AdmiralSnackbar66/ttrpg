@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Our Disney Adventure.md",
+                "file": "content/blog/posts/A little bit more ....md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Our Disney Adventure"
+              "title": "A little bit more ..."
             }
           }
         ]
@@ -201,9 +201,10 @@
   },
   "active": "83ddd6fc6f9ad075",
   "lastOpenFiles": [
-    "ttrpgs/TTRPGs Games Index.md",
     "content/Our Disney Adventure.md",
     "content/blog/posts/A little bit more ....md",
+    "content/blog/TTRPGs Games Index 1.md",
+    "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
     "content/blog/posts/Mobile blogging.. .md",
     "content/blog/posts/Not long now.. .md",
