@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "82ff5eaf618c6090",
+    "id": "c8cfbaf3706ee8a3",
     "type": "split",
     "children": [
       {
-        "id": "747f6a9c1633677a",
+        "id": "708fe4cdc9aad80c",
         "type": "tabs",
         "children": [
           {
-            "id": "0ce4cf2a70480f58",
+            "id": "2d53ff38035271d6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,11 +23,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ea90be6f5ca9d5af",
+    "id": "5adebe732175430b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "32275ce2cd53a31a",
+        "id": "956d5a9a84702ebf",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -40,7 +40,7 @@
         }
       },
       {
-        "id": "1186bb6a6986614e",
+        "id": "fa354033cfe08f52",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -57,7 +57,7 @@
         }
       },
       {
-        "id": "79522a49a93250f2",
+        "id": "4c79861985a216e8",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,7 +72,7 @@
         }
       },
       {
-        "id": "299937732c2c468d",
+        "id": "1d3b43311e55627e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -85,16 +85,15 @@
     "currentTab": 0
   },
   "right": {
-    "id": "940f0d4bf51828b2",
+    "id": "1dd76994ff41e77f",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "e6e6a7abec02c88e",
+        "id": "9e873480cf8b90a3",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "blog/posts.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -108,12 +107,11 @@
         }
       },
       {
-        "id": "74a3a6c997a31216",
+        "id": "1b3a753008b92d73",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "blog/posts.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -122,12 +120,11 @@
         }
       },
       {
-        "id": "38be41ed2758597a",
+        "id": "d4c438ef560ba94b",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "blog/posts.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -135,23 +132,65 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "d2c9055a8a0ec0b3",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {},
+          "icon": "checkmark",
+          "title": "Todo List"
+        }
+      },
+      {
+        "id": "dae56b8b85551a95",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {},
+          "icon": "dice-roller-icon",
+          "title": "Dice Roller"
+        }
+      },
+      {
+        "id": "3338175a3d8e508e",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {},
+          "icon": "initiative-tracker",
+          "title": "Initiative Tracker"
+        }
+      },
+      {
+        "id": "30ced5d006eaccf5",
+        "type": "leaf",
+        "state": {
+          "type": "CALENDARIUM",
+          "icon": "CALENDARIUM",
+          "title": "Calendarium"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 6
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "dbfolder:Create a new database table": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "0ce4cf2a70480f58",
-  "lastOpenFiles": [
-    "blog/posts.md",
-    "blog/posts 1.md"
-  ]
+  "active": "d2c9055a8a0ec0b3",
+  "lastOpenFiles": []
 }
