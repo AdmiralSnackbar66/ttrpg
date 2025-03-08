@@ -185,7 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "digitalgarden:Digital Garden Publication Center": false,
+      "quartz-syncer:Quartz Syncer Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -203,8 +203,9 @@
   },
   "active": "8cbe6726694ef688",
   "lastOpenFiles": [
-    "content/blog/posts/Today is the day... .md",
+    "content/Our Disney Adventure 1.md",
     "content/Our Disney Adventure.md",
+    "content/blog/posts/Today is the day... .md",
     "ttrpg/content",
     "ttrpg",
     "content/content/Our Disney Adventure.md",
