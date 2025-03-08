@@ -197,7 +197,8 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "8cbe6726694ef688",
