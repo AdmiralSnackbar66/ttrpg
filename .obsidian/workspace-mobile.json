@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/content/Our Disney Adventure.md",
+                "file": "content/Our Disney Adventure.md",
                 "mode": "source",
                 "source": false
               },
@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Our disney",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -86,7 +86,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "1dd76994ff41e77f",
@@ -201,12 +201,13 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "8cbe6726694ef688",
+  "active": "fa354033cfe08f52",
   "lastOpenFiles": [
     "content/index.md",
-    "content/Our Disney Adventure.md",
     "content/blog/posts/A little bit more ....md",
     "content/blog/posts/Today is the day... .md",
+    "content/Our Disney Adventure.md",
+    "content/content/Our Disney Adventure.md",
     "content/content/content/Our Disney Adventure.md",
     "content/content/content",
     "content/content",
