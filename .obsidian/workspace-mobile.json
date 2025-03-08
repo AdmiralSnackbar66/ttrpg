@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/posts/Today is the day....md",
+                "file": "Our Disney Adventure.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Today is the day..."
+              "title": "Our Disney Adventure"
             }
           }
         ]
@@ -203,10 +203,10 @@
   },
   "active": "8cbe6726694ef688",
   "lastOpenFiles": [
+    "content/blog/posts/Today is the day....md",
     "Our Disney Adventure.md",
     "content/blog/posts/Today is the day... .md",
     "content/Our Disney Adventure.md",
-    "content/blog/posts/Today is the day....md",
     "content/Our Disney Adventure 1.md",
     "ttrpg/content",
     "ttrpg",
