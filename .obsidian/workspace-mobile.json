@@ -175,7 +175,6 @@
         "type": "leaf",
         "state": {
           "type": "CALENDARIUM",
-          "state": {},
           "icon": "CALENDARIUM",
           "title": "Calendarium"
         }
@@ -201,7 +200,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "956d5a9a84702ebf",
+  "active": "e7cf9a420d25942e",
   "lastOpenFiles": [
     "content/content/content/Our Disney Adventure.md",
     "content/content/content",
