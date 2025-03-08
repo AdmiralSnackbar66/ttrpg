@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f870e75743e62c47",
+        "id": "4cba2a1d9f53e384",
         "type": "tabs",
         "children": [
           {
-            "id": "fcf9893ff32b0d2f",
+            "id": "8cbe6726694ef688",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/content/Our Disney Adventure.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Our Disney Adventure"
             }
           }
         ]
@@ -197,10 +201,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "fcf9893ff32b0d2f",
+  "active": "8cbe6726694ef688",
   "lastOpenFiles": [
-    "content/Our Disney Adventure.md",
     "content/index.md",
+    "content/Our Disney Adventure.md",
     "content/blog/posts/A little bit more ....md",
     "content/blog/posts/Today is the day... .md",
     "content/content/content/Our Disney Adventure.md",
