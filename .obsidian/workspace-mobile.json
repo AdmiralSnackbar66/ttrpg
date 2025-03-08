@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76d4ed1bf66bc3d9",
+        "id": "e7496139a52191f3",
         "type": "tabs",
         "children": [
           {
-            "id": "e7cf9a420d25942e",
+            "id": "537258656254b359",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,6 +175,7 @@
         "type": "leaf",
         "state": {
           "type": "CALENDARIUM",
+          "state": {},
           "icon": "CALENDARIUM",
           "title": "Calendarium"
         }
@@ -200,13 +201,13 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e7cf9a420d25942e",
+  "active": "537258656254b359",
   "lastOpenFiles": [
+    "content/Our Disney Adventure.md",
     "content/content/content/Our Disney Adventure.md",
     "content/content/content",
     "content/content",
     "content/blog/posts/A little bit more ....md",
-    "content/Our Disney Adventure.md",
     "content/blog/TTRPGs Games Index 1.md",
     "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
