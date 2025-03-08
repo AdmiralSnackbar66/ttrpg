@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4cba2a1d9f53e384",
+        "id": "0d4a8d6e22452b26",
         "type": "tabs",
         "children": [
           {
-            "id": "8cbe6726694ef688",
+            "id": "13f3ec287d4a1707",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Our Disney Adventure.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Our Disney Adventure"
+              "title": "New tab"
             }
           }
         ]
@@ -175,7 +171,19 @@
         "type": "leaf",
         "state": {
           "type": "CALENDARIUM",
-          "state": {},
+          "state": {
+            "calendar": "ID_f89a1af98a1b",
+            "ephemeral": {
+              "viewState": 1,
+              "displaying": {
+                "day": 1,
+                "month": 0,
+                "year": 1491
+              },
+              "displayDayNumber": false,
+              "displayMoons": true
+            }
+          },
           "icon": "CALENDARIUM",
           "title": "Calendarium"
         }
@@ -201,10 +209,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "8cbe6726694ef688",
+  "active": "13f3ec287d4a1707",
   "lastOpenFiles": [
-    "content/content/Our Disney Adventure.md",
+    "assets/20250308_173353 1.heic",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.png",
+    "content/blog/posts/Let's fly away... .md",
+    "assets/20250308_173353.heic",
     "content/Our Disney Adventure.md",
+    "content/content/Our Disney Adventure.md",
     "content/Dnd Sessions",
     "content/content",
     "Untitled 1",
