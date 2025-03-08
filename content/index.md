@@ -2,6 +2,7 @@
 title: Home
 draft: false
 tags:
+Publish: true
 ---
 Welcome to Dungeon Diaries.
 
