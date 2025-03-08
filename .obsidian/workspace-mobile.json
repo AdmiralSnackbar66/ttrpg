@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Our Disney Adventure.md",
+                "file": "Our Disney Adventure.md",
                 "mode": "source",
                 "source": true
               },
@@ -197,16 +197,15 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false,
-      "calendarium:Open Calendarium": false
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "8cbe6726694ef688",
   "lastOpenFiles": [
-    "Our Disney Adventure.md",
     "content/blog/posts/Today is the day....md",
-    "content/blog/posts/Today is the day... .md",
+    "Our Disney Adventure.md",
     "content/Our Disney Adventure.md",
+    "content/blog/posts/Today is the day... .md",
     "content/Our Disney Adventure 1.md",
     "ttrpg/content",
     "ttrpg",
