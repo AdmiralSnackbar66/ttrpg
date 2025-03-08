@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Our Disney Adventure.md",
-                "mode": "source",
-                "source": false
+                "file": "content/Our Disney Adventure.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Our Disney Adventure"
@@ -203,8 +203,8 @@
   },
   "active": "8cbe6726694ef688",
   "lastOpenFiles": [
-    "content/Our Disney Adventure.md",
     "Our Disney Adventure.md",
+    "content/Our Disney Adventure.md",
     "content/Our Disney Adventure 1.md",
     "content/blog/posts/Today is the day... .md",
     "ttrpg/content",
