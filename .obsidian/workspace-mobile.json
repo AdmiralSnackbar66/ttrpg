@@ -11,10 +11,14 @@
             "id": "13f3ec287d4a1707",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/index.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -211,12 +215,13 @@
   },
   "active": "13f3ec287d4a1707",
   "lastOpenFiles": [
+    "content/Our Disney Adventure.md",
+    "content/index.md",
     "assets/20250308_173353 1.heic",
     "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
     "assets/001_20230125 2023-01-25 23.37.18.excalidraw.png",
     "content/blog/posts/Let's fly away... .md",
     "assets/20250308_173353.heic",
-    "content/Our Disney Adventure.md",
     "content/content/Our Disney Adventure.md",
     "content/Dnd Sessions",
     "content/content",
@@ -228,7 +233,6 @@
     "ttrpg/content",
     "ttrpg",
     "content/content",
-    "content/index.md",
     "content/blog/posts/A little bit more ....md",
     "content/content/content/Our Disney Adventure.md",
     "content/content/content",
