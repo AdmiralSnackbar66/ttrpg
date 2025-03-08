@@ -86,7 +86,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "1dd76994ff41e77f",
@@ -201,16 +201,18 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "fa354033cfe08f52",
+  "active": "8cbe6726694ef688",
   "lastOpenFiles": [
+    "ttrpg/content",
+    "ttrpg",
+    "content/content/Our Disney Adventure.md",
+    "content/Our Disney Adventure.md",
+    "content/content",
     "content/index.md",
     "content/blog/posts/A little bit more ....md",
     "content/blog/posts/Today is the day... .md",
-    "content/Our Disney Adventure.md",
-    "content/content/Our Disney Adventure.md",
     "content/content/content/Our Disney Adventure.md",
     "content/content/content",
-    "content/content",
     "content/blog/TTRPGs Games Index 1.md",
     "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
