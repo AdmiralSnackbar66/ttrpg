@@ -11,5 +11,5 @@ Rather than this being a seperated page or blog about our trip to disney it will
 
 | File                                                                 | Created                  |
 | -------------------------------------------------------------------- | ------------------------ |
-| [[content/blog/posts/Today is the day... \|Today is the day... ]] | 7:16 AM - March 08, 2025 |
+| [[blog/posts/Today is the day... \|Today is the day... ]] | 7:16 AM - March 08, 2025 |
 
