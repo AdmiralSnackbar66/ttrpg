@@ -175,7 +175,6 @@
         "type": "leaf",
         "state": {
           "type": "CALENDARIUM",
-          "state": {},
           "icon": "CALENDARIUM",
           "title": "Calendarium"
         }
@@ -197,13 +196,15 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "956d5a9a84702ebf",
+  "active": "8cbe6726694ef688",
   "lastOpenFiles": [
-    "content/Our Disney Adventure 1.md",
+    "content/Our Disney Adventure.md",
     "Our Disney Adventure.md",
+    "content/Our Disney Adventure 1.md",
     "content/blog/posts/Today is the day... .md",
     "ttrpg/content",
     "ttrpg",
