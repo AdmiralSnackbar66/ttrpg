@@ -5,5 +5,8 @@ tags:
   - blog
   - Disney
 date: 2025-03-08
+publish: true
 ---
-It's early and I'm awake.. the reason - were off to Paris France. Disneyland paris to be exact. We fly later today and I still haven't packed
+It's early and I'm awake.. the reason - were off to Paris France. Disneyland paris to be exact. We fly later today and I still haven't packed... 
+
+So I gonna have to start.... See you on the other side. 
