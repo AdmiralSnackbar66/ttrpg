@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0d4a8d6e22452b26",
+        "id": "ae72bff3b53954e8",
         "type": "tabs",
         "children": [
           {
-            "id": "13f3ec287d4a1707",
+            "id": "bf9ae049a80d7672",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Our Disney Adventure.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Our Disney Adventure"
+              "title": "New tab"
             }
           }
         ]
@@ -213,10 +209,19 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "13f3ec287d4a1707",
+  "active": "bf9ae049a80d7672",
   "lastOpenFiles": [
+    "content/Our Disney Adventure 1.md",
+    "content/blog/posts/Today is the day... .md",
     "content/blog/posts/Let's fly away... .md",
+    "content/blog/posts/Let's fly away....md",
+    "content/blog/posts/Today is the day....md",
+    "github-publisher/content/hidden/Let's fly away....md",
     "content/Our Disney Adventure.md",
+    "github-publisher/content/hidden",
+    "github-publisher/content",
+    "github-publisher",
+    "content/Let's fly away....md",
     "content/index.md",
     "assets/20250308_173353 1.heic",
     "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
@@ -227,15 +232,9 @@
     "content/content",
     "Untitled 1",
     "Untitled",
-    "content/blog/posts/Today is the day....md",
-    "content/blog/posts/Today is the day... .md",
-    "content/Our Disney Adventure 1.md",
     "ttrpg/content",
-    "ttrpg",
-    "content/content",
     "content/blog/posts/A little bit more ....md",
     "content/content/content/Our Disney Adventure.md",
-    "content/content/content",
     "content/blog/TTRPGs Games Index 1.md",
     "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
