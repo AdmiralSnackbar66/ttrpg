@@ -209,8 +209,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
       "obsidian42-brat:BRAT": false,
-      "quartz-syncer:Quartz Syncer Publication Center": false,
-      "calendarium:Open Calendarium": false
+      "quartz-syncer:Quartz Syncer Publication Center": false
     }
   },
   "active": "73e518cb18432312",
