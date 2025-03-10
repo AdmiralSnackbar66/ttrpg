@@ -6,11 +6,13 @@ share: true
 ---
 Rather than this being a seperated page or blog about our trip to disney it will just be a list of all of my blog posts about Disney... The list will appear below and will be added to over the next few days. 
 
-```
+'+```
 Dataview
 Table title
 From #Disney 
 ```
+
+
 | File                                                                        | Created                  |
 | --------------------------------------------------------------------------- | ------------------------ |
 | [[content/blog/posts/A Disney kind of day.... \|A Disney kind of day.... ]] | 11:30PM - March 09, 2025 |
