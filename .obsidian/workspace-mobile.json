@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "A Disney kind of day...."
             }
+          },
+          {
+            "id": "e786c5c22f9db63f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Our Disney Adventure.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Our Disney Adventure"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,24 +227,25 @@
       "dbfolder:Create a new database table": false,
       "obsidian42-brat:BRAT": false,
       "quartz-syncer:Quartz Syncer Publication Center": false,
-      "calendarium:Open Calendarium": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "cb4e004e8808997f",
+  "active": "e786c5c22f9db63f",
   "lastOpenFiles": [
+    "content/blog/posts/Another Disney Day... .md",
+    "content/Our Disney Adventure.md",
+    "content/blog/posts/Let's fly away... .md",
+    "content/blog/posts/Today is the day... .md",
     "content/blog/posts/Untitled.md",
     "content/blog/posts/A Disney kind of day.... .md",
+    "content/blog/posts/A Disney kind of day.....md",
+    "content/blog/posts/Another Disney Day....md",
     "content/Untitled.md",
     "content/blog/posts/Lion King Show.md",
     "templates/world.md",
     "templates/Insert from Google photos.md",
-    "content/blog/posts/Another Disney Day... .md",
-    "content/Our Disney Adventure.md",
-    "content/blog/posts/Today is the day... .md",
-    "content/blog/posts/A Disney kind of day.....md",
     "content/blog/posts/Let's fly away....md",
-    "content/blog/posts/Let's fly away... .md",
     "content/blog/posts/Today is the day....md",
     "github-publisher/content/hidden/Let's fly away....md",
     "github-publisher/content/hidden",
@@ -253,7 +269,6 @@
     "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
     "content/blog/posts/Mobile blogging.. .md",
-    "content/blog/posts/Not long now.. .md",
-    "templates/new-blog.md"
+    "content/blog/posts/Not long now.. .md"
   ]
 }
