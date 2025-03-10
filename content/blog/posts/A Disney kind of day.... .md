@@ -8,11 +8,12 @@ date: 2025-03-09
 ---
 So today we finally got to the Park. Not before having a coffee from Pret a Manger in the train station. 
 
-Made a b-line for Buy Lightyear laser blast. Now normally I absolutely dominate in this ride  but today got shamefully destroyed by my partner. I tried to explain that my gun wasn't working but she wasn't buying it 😉
+Made a b-line for Buzz Lightyear laser blast. Now normally I absolutely dominate in this ride  but today got shamefully destroyed by my partner. I tried to explain that my gun wasn't working but she wasn't buying it 😉
 
 Then off to Peter Pans flight followed by Pirates of the Caribbean which is one of my favourites. 
 
 After that we did the Mad Hatters Teacups and then went to see the Lion King show which we absolutely love. 
+
 
 After the lion king we went to the other park and had lunch at Pyms restaurant. The food was really nice. 
 
