@@ -14,8 +14,18 @@
               "type": "markdown",
               "state": {
                 "file": "content/Our Disney Adventure.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Our Disney Adventure"
@@ -215,10 +225,10 @@
   },
   "active": "73e518cb18432312",
   "lastOpenFiles": [
-    "content/blog/posts/Let's fly away....md",
-    "content/Our Disney Adventure.md",
     "content/blog/posts/A Disney kind of day.....md",
     "content/blog/posts/A Disney kind of day.... .md",
+    "content/Our Disney Adventure.md",
+    "content/blog/posts/Let's fly away....md",
     "content/blog/posts/Today is the day... .md",
     "content/blog/posts/Let's fly away... .md",
     "content/blog/posts/Today is the day....md",
