@@ -4,40 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "2871dd37801277ed",
+        "id": "604b898daaab400d",
         "type": "tabs",
         "children": [
           {
-            "id": "73e518cb18432312",
+            "id": "cb4e004e8808997f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "content/blog/posts/A Disney kind of day.... .md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
+                "source": true
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "A Disney kind of day...."
             }
-          },
-          {
-            "id": "578b0799415505b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/posts/Another Disney Day... .md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Another Disney Day..."
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -53,7 +39,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": true
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -65,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Our disney",
+            "query": "New",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -226,15 +212,21 @@
       "dbfolder:Create a new database table": false,
       "obsidian42-brat:BRAT": false,
       "quartz-syncer:Quartz Syncer Publication Center": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "578b0799415505b2",
+  "active": "cb4e004e8808997f",
   "lastOpenFiles": [
+    "content/blog/posts/Untitled.md",
     "content/blog/posts/A Disney kind of day.... .md",
+    "content/Untitled.md",
+    "content/blog/posts/Lion King Show.md",
+    "templates/world.md",
+    "templates/Insert from Google photos.md",
     "content/blog/posts/Another Disney Day... .md",
-    "content/blog/posts/Today is the day... .md",
     "content/Our Disney Adventure.md",
+    "content/blog/posts/Today is the day... .md",
     "content/blog/posts/A Disney kind of day.....md",
     "content/blog/posts/Let's fly away....md",
     "content/blog/posts/Let's fly away... .md",
@@ -262,9 +254,6 @@
     "content/blog/posts/My first blog post.md",
     "content/blog/posts/Mobile blogging.. .md",
     "content/blog/posts/Not long now.. .md",
-    "templates/world.md",
-    "templates/new-blog.md",
-    "content/blog/posts/{VALUE}.md",
-    "content/blog/posts/Mobile blogging.md"
+    "templates/new-blog.md"
   ]
 }
