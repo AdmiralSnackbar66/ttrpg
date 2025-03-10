@@ -15,17 +15,8 @@
               "state": {
                 "file": "content/Our Disney Adventure.md",
                 "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Our Disney Adventure"
