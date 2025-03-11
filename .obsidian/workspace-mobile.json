@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb4e004e8808997f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/posts/A Disney kind of day.... .md",
-                "mode": "source",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "A Disney kind of day...."
-            }
-          },
-          {
             "id": "e786c5c22f9db63f",
             "type": "leaf",
             "state": {
@@ -37,8 +21,7 @@
               "title": "Our Disney Adventure"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,11 +216,12 @@
   },
   "active": "e786c5c22f9db63f",
   "lastOpenFiles": [
-    "content/blog/posts/Another Disney Day... .md",
+    "content/blog/posts/A farewell to Disney... .md",
+    "content/blog/posts/Untitled.md",
     "content/Our Disney Adventure.md",
+    "content/blog/posts/Another Disney Day... .md",
     "content/blog/posts/Let's fly away... .md",
     "content/blog/posts/Today is the day... .md",
-    "content/blog/posts/Untitled.md",
     "content/blog/posts/A Disney kind of day.... .md",
     "content/blog/posts/A Disney kind of day.....md",
     "content/blog/posts/Another Disney Day....md",
@@ -268,7 +252,6 @@
     "content/blog/TTRPGs Games Index 1.md",
     "ttrpgs/TTRPGs Games Index.md",
     "content/blog/posts/My first blog post.md",
-    "content/blog/posts/Mobile blogging.. .md",
-    "content/blog/posts/Not long now.. .md"
+    "content/blog/posts/Mobile blogging.. .md"
   ]
 }

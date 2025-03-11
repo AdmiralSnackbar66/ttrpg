@@ -1,0 +1,1 @@
+[![](https://lh3.googleusercontent.com/pw/AP1GczOTr87WCm-iyLiWjfglSniwjjn4vnD356SayxPaUs-fnC48xLwV7eFNZDNijl9TKcnd4mULE8-2E67eJq7p25o1uEGnKuyqFBOeFMZTYfKPSYK4vOyH=w350-h250-no)](https://photos.app.goo.gl/FqXa6xhMFCfQHXb3A)
