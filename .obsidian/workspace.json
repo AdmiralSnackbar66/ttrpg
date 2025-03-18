@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0d988d1e5046ba47",
+        "id": "db4688c606bf0c40",
         "type": "tabs",
         "children": [
           {
-            "id": "b81faf4a85ca5345",
+            "id": "c45064ff2670f6c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-Scratch Notes/Strixhaven Adventure Hooks.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Strixhaven Adventure Hooks"
+              "title": "New tab"
             }
           }
         ]
@@ -295,12 +291,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Scratch Notes/Strixhaven Adventure Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Strixhaven Adventure Hooks"
+              "title": "Outgoing links"
             }
           }
         ],
@@ -327,13 +322,14 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "dbfolder:Create a new database table": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-5e-statblocks:Open Creature pane": false
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "b655b639b3005800",
+  "active": "c45064ff2670f6c7",
   "lastOpenFiles": [
-    "content/blog/posts/Back again ....md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "content/blog/posts/Back again ....md",
     "0-Scratch Notes/An adventure hook.md",
     "0-Scratch Notes/Dragon related adventure hook.md",
     "0-Scratch Notes/Add Random Notes Here.md",
