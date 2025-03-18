@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "c8cfbaf3706ee8a3",
+    "id": "8927bbfe0e19f8f3",
     "type": "split",
     "children": [
       {
-        "id": "604b898daaab400d",
+        "id": "530b74c2a8d47b07",
         "type": "tabs",
         "children": [
           {
-            "id": "e786c5c22f9db63f",
+            "id": "973369ad2830ed90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Our Disney Adventure.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Our Disney Adventure"
+              "title": "New tab"
             }
           }
         ]
@@ -27,11 +23,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5adebe732175430b",
+    "id": "c107c0fa96fcdccd",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "956d5a9a84702ebf",
+        "id": "2a4b92703839df12",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,12 +40,12 @@
         }
       },
       {
-        "id": "fa354033cfe08f52",
+        "id": "c2ec98612b0116b8",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "New",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -61,7 +57,7 @@
         }
       },
       {
-        "id": "4c79861985a216e8",
+        "id": "cc9ef3584cb480bb",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -76,7 +72,7 @@
         }
       },
       {
-        "id": "1d3b43311e55627e",
+        "id": "8404d0669cc7197d",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -89,16 +85,15 @@
     "currentTab": 0
   },
   "right": {
-    "id": "1dd76994ff41e77f",
+    "id": "a62cb96fad5e13ba",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "9e873480cf8b90a3",
+        "id": "bf0c4e16e417b824",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "content/blog/posts/{VALUE}.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,12 +107,11 @@
         }
       },
       {
-        "id": "1b3a753008b92d73",
+        "id": "c977891b53986c16",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "content/blog/posts/{VALUE}.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -126,12 +120,11 @@
         }
       },
       {
-        "id": "d4c438ef560ba94b",
+        "id": "211a05f20c5535fc",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "content/blog/posts/{VALUE}.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -141,37 +134,7 @@
         }
       },
       {
-        "id": "d2c9055a8a0ec0b3",
-        "type": "leaf",
-        "state": {
-          "type": "todo",
-          "state": {},
-          "icon": "checkmark",
-          "title": "Todo List"
-        }
-      },
-      {
-        "id": "dae56b8b85551a95",
-        "type": "leaf",
-        "state": {
-          "type": "DICE_ROLLER_VIEW",
-          "state": {},
-          "icon": "dice-roller-icon",
-          "title": "Dice Roller"
-        }
-      },
-      {
-        "id": "3338175a3d8e508e",
-        "type": "leaf",
-        "state": {
-          "type": "initiative-tracker-view",
-          "state": {},
-          "icon": "initiative-tracker",
-          "title": "Initiative Tracker"
-        }
-      },
-      {
-        "id": "30ced5d006eaccf5",
+        "id": "6f775aa523db1c3a",
         "type": "leaf",
         "state": {
           "type": "CALENDARIUM",
@@ -191,67 +154,108 @@
           "icon": "CALENDARIUM",
           "title": "Calendarium"
         }
+      },
+      {
+        "id": "b8625a976d4d40cc",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {},
+          "icon": "checkmark",
+          "title": "Todo List"
+        }
+      },
+      {
+        "id": "75f77ba0e4e5ddaf",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {},
+          "icon": "dices",
+          "title": "Dice Tray"
+        }
+      },
+      {
+        "id": "4005c3bbfc920ebe",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {},
+          "icon": "initiative-tracker",
+          "title": "Initiative Tracker"
+        }
       }
     ],
     "currentTab": 6
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false,
-      "quartz-syncer:Quartz Syncer Publication Center": false,
-      "templater-obsidian:Templater": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "e786c5c22f9db63f",
+  "active": "973369ad2830ed90",
   "lastOpenFiles": [
-    "content/blog/posts/A farewell to Disney... .md",
-    "content/blog/posts/Untitled.md",
-    "content/Our Disney Adventure.md",
-    "content/blog/posts/Another Disney Day... .md",
-    "content/blog/posts/Let's fly away... .md",
-    "content/blog/posts/Today is the day... .md",
-    "content/blog/posts/A Disney kind of day.... .md",
-    "content/blog/posts/A Disney kind of day.....md",
-    "content/blog/posts/Another Disney Day....md",
-    "content/Untitled.md",
-    "content/blog/posts/Lion King Show.md",
-    "templates/world.md",
-    "templates/Insert from Google photos.md",
-    "content/blog/posts/Let's fly away....md",
-    "content/blog/posts/Today is the day....md",
-    "github-publisher/content/hidden/Let's fly away....md",
-    "github-publisher/content/hidden",
-    "github-publisher/content",
-    "github-publisher",
-    "content/Let's fly away....md",
-    "content/index.md",
-    "assets/20250308_173353 1.heic",
-    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
-    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.png",
-    "assets/20250308_173353.heic",
-    "content/content/Our Disney Adventure.md",
-    "content/Dnd Sessions",
-    "content/content",
-    "Untitled 1",
-    "Untitled",
-    "ttrpg/content",
-    "content/blog/posts/A little bit more ....md",
-    "content/content/content/Our Disney Adventure.md",
-    "content/blog/TTRPGs Games Index 1.md",
+    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "ttrpgs/TTRPGs Games Index.md",
-    "content/blog/posts/My first blog post.md",
-    "content/blog/posts/Mobile blogging.. .md"
+    "monsters/5e/Angel - archangel hala’ath.md",
+    "GM tools.md",
+    "Monsters.md",
+    "monsters/5e/Treant.md",
+    "ttrpgs/Strixhaven/World.md",
+    "ttrpgs/Strixhaven/001_20250318.md",
+    "ttrpgs/Strixhaven/Extus Narr.md",
+    "monsters/5e/Shoggoth.md",
+    "monsters/5e/Dragonclaw.md",
+    "monsters/5e/Ogre - black sun.md",
+    "monsters/5e/Devouring angel.md",
+    "monsters/5e/Hobgoblin.md",
+    "monsters/5e/Drake - Bathhouse.md",
+    "monsters/5e/Chronomatic Enchancer.md",
+    "monsters/5e/Ibingan - Lake.md",
+    "monsters/5e/Grisha.md",
+    "monsters/5e/Yathon.md",
+    "monsters/5e/Green Hag.md",
+    "monsters/5e/Orc Nurtured One of Yurtrus.md",
+    "monsters/5e/Grimlock Technical (A5E).md",
+    "monsters/5e/Adult Shadow Dragon Spellcaster (A5E).md",
+    "monsters/5e/Moonchild Naga.md",
+    "monsters/5e/Herd skulker.md",
+    "monsters/5e/Mind Flayer.md",
+    "monsters/5e",
+    "monsters/Pathfinder 2e",
+    "monsters",
+    "assets/ironsworn-examples-of-narration-and-moves.png",
+    "assets/ironsworn-progress-tracks.png",
+    "assets/ironsworn-experience.png",
+    "assets/ironsworn-momentum-track-negative.png",
+    "assets/ironsworn-companion-hawk.png",
+    "assets/ironsworn-combat-talent-swordmaster.png",
+    "assets/vault-of-bones.png",
+    "assets/ironsworn-paths-storyweaver.png",
+    "assets/ironsworn-flow-of-play.png",
+    "assets/ironsworn-vow-example-milestones.png",
+    "assets/20250308_173353 1.heic",
+    "assets/20250308_173353.heic",
+    "assets",
+    "systems/Mörk Borg/Mörk Borg rules",
+    "systems/Mörk Borg/Mörk Borg Monsters",
+    "systems/Pathfinder 2e/Conditions",
+    "systems/Ironsworn"
   ]
 }

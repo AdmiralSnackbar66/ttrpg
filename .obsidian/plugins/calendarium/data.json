@@ -281,15 +281,16 @@
           "id": "824588",
           "note": null,
           "date": {
-            "day": null,
             "year": null,
-            "month": null
+            "month": null,
+            "day": null
           },
           "category": "natural-events",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Undated"
         },
         {
           "name": "Vernal Equinox",
@@ -297,15 +298,16 @@
           "id": "824589",
           "note": null,
           "date": {
-            "day": null,
             "year": null,
-            "month": null
+            "month": null,
+            "day": null
           },
           "category": "natural-events",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Undated"
         },
         {
           "name": "Summer Solstice",
@@ -313,15 +315,16 @@
           "id": "824590",
           "note": null,
           "date": {
-            "day": null,
             "year": null,
-            "month": null
+            "month": null,
+            "day": null
           },
           "category": "natural-events",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Undated"
         },
         {
           "name": "Autumnal Equinox",
@@ -329,15 +332,16 @@
           "id": "824591",
           "note": null,
           "date": {
-            "day": null,
             "year": null,
-            "month": null
+            "month": null,
+            "day": null
           },
           "category": "natural-events",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Undated"
         },
         {
           "name": "Midwinter",
@@ -346,14 +350,18 @@
           "note": null,
           "date": {
             "day": 1,
-            "year": null,
+            "year": [
+              null,
+              null
+            ],
             "month": 1
           },
           "category": "festivals",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Date"
         },
         {
           "name": "Greengrass",
@@ -362,14 +370,18 @@
           "note": null,
           "date": {
             "day": 1,
-            "year": null,
+            "year": [
+              null,
+              null
+            ],
             "month": 5
           },
           "category": "festivals",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Date"
         },
         {
           "name": "Midsummer",
@@ -378,14 +390,18 @@
           "note": null,
           "date": {
             "day": 1,
-            "year": null,
+            "year": [
+              null,
+              null
+            ],
             "month": 9
           },
           "category": "festivals",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Date"
         },
         {
           "name": "Shieldmeet",
@@ -394,14 +410,18 @@
           "note": null,
           "date": {
             "day": 2,
-            "year": null,
+            "year": [
+              null,
+              null
+            ],
             "month": 9
           },
           "category": "festivals",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Date"
         },
         {
           "name": "Highharvesttide",
@@ -410,14 +430,18 @@
           "note": null,
           "date": {
             "day": 1,
-            "year": null,
+            "year": [
+              null,
+              null
+            ],
             "month": 12
           },
           "category": "festivals",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Date"
         },
         {
           "name": "Feast of the Moon",
@@ -426,14 +450,18 @@
           "note": null,
           "date": {
             "day": 1,
-            "year": null,
+            "year": [
+              null,
+              null
+            ],
             "month": 15
           },
           "category": "festivals",
           "sort": {
             "timestamp": 5e-324,
             "order": ""
-          }
+          },
+          "type": "Date"
         }
       ],
       "id": "ID_f89a1af98a1b",
@@ -451,7 +479,6 @@
       ]
     }
   ],
-  "deletedCalendars": [],
   "configDirectory": null,
   "dailyNotes": false,
   "dateFormat": "YYYY-MM-DD",
@@ -466,8 +493,8 @@
   "parseDates": false,
   "version": {
     "major": 1,
-    "minor": 0,
-    "patch": 8,
+    "minor": 5,
+    "patch": 0,
     "beta": null
   },
   "debug": false,
@@ -482,5 +509,6 @@
     "events": false,
     "advanced": true
   },
-  "showIntercalary": false
+  "showIntercalary": false,
+  "autoParse": true
 }

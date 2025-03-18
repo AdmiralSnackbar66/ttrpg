@@ -525,7 +525,7 @@ var require_react_development = __commonJS({
           }
           return element;
         };
-        function createElement9(type, config, children) {
+        function createElement11(type, config, children) {
           var propName;
           var props = {};
           var key = null;
@@ -1047,7 +1047,7 @@ var require_react_development = __commonJS({
           }
           return false;
         }
-        function memo(type, compare) {
+        function memo2(type, compare) {
           {
             if (!isValidElementType(type)) {
               error("memo: The first argument must be a component. Instead received: %s", type === null ? "null" : typeof type);
@@ -1099,19 +1099,19 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context);
         }
-        function useState2(initialState) {
+        function useState(initialState) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState);
         }
-        function useReducer(reducer, initialArg, init) {
+        function useReducer2(reducer2, initialArg, init) {
           var dispatcher = resolveDispatcher();
-          return dispatcher.useReducer(reducer, initialArg, init);
+          return dispatcher.useReducer(reducer2, initialArg, init);
         }
         function useRef(initialValue) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useRef(initialValue);
         }
-        function useEffect2(create, deps) {
+        function useEffect4(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useEffect(create, deps);
         }
@@ -1123,11 +1123,11 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useLayoutEffect(create, deps);
         }
-        function useCallback2(callback, deps) {
+        function useCallback5(callback, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useCallback(callback, deps);
         }
-        function useMemo(create, deps) {
+        function useMemo2(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useMemo(create, deps);
         }
@@ -1624,7 +1624,7 @@ var require_react_development = __commonJS({
               error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
             }
           }
-          var element = createElement9.apply(this, arguments);
+          var element = createElement11.apply(this, arguments);
           if (element == null) {
             return element;
           }
@@ -1886,22 +1886,22 @@ var require_react_development = __commonJS({
         exports.forwardRef = forwardRef;
         exports.isValidElement = isValidElement;
         exports.lazy = lazy;
-        exports.memo = memo;
+        exports.memo = memo2;
         exports.startTransition = startTransition;
         exports.unstable_act = act;
-        exports.useCallback = useCallback2;
+        exports.useCallback = useCallback5;
         exports.useContext = useContext;
         exports.useDebugValue = useDebugValue;
         exports.useDeferredValue = useDeferredValue;
-        exports.useEffect = useEffect2;
+        exports.useEffect = useEffect4;
         exports.useId = useId;
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
         exports.useLayoutEffect = useLayoutEffect;
-        exports.useMemo = useMemo;
-        exports.useReducer = useReducer;
+        exports.useMemo = useMemo2;
+        exports.useReducer = useReducer2;
         exports.useRef = useRef;
-        exports.useState = useState2;
+        exports.useState = useState;
         exports.useSyncExternalStore = useSyncExternalStore;
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
@@ -2397,9 +2397,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React9 = require_react();
+        var React11 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React11.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -4004,7 +4004,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React9.Children.forEach(props.children, function(child) {
+                React11.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -9403,7 +9403,7 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function createElement9(type, props, rootContainerElement, parentNamespace) {
+        function createElement11(type, props, rootContainerElement, parentNamespace) {
           var isCustomComponentTag;
           var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
           var domElement;
@@ -10264,7 +10264,7 @@ var require_react_dom_development = __commonJS({
             }
             parentNamespace = hostContextDev.namespace;
           }
-          var domElement = createElement9(type, props, rootContainerInstance, parentNamespace);
+          var domElement = createElement11(type, props, rootContainerInstance, parentNamespace);
           precacheFiberNode(internalInstanceHandle, domElement);
           updateFiberProps(domElement, props);
           return domElement;
@@ -12451,7 +12451,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React9.Component().refs;
+        var emptyRefsObject = new React11.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -14245,7 +14245,7 @@ var require_react_dom_development = __commonJS({
         function basicStateReducer(state, action) {
           return typeof action === "function" ? action(state) : action;
         }
-        function mountReducer(reducer, initialArg, init) {
+        function mountReducer(reducer2, initialArg, init) {
           var hook = mountWorkInProgressHook();
           var initialState;
           if (init !== void 0) {
@@ -14259,20 +14259,20 @@ var require_react_dom_development = __commonJS({
             interleaved: null,
             lanes: NoLanes,
             dispatch: null,
-            lastRenderedReducer: reducer,
+            lastRenderedReducer: reducer2,
             lastRenderedState: initialState
           };
           hook.queue = queue;
           var dispatch = queue.dispatch = dispatchReducerAction.bind(null, currentlyRenderingFiber$1, queue);
           return [hook.memoizedState, dispatch];
         }
-        function updateReducer(reducer, initialArg, init) {
+        function updateReducer(reducer2, initialArg, init) {
           var hook = updateWorkInProgressHook();
           var queue = hook.queue;
           if (queue === null) {
             throw new Error("Should have a queue. This is likely a bug in React. Please file an issue.");
           }
-          queue.lastRenderedReducer = reducer;
+          queue.lastRenderedReducer = reducer2;
           var current2 = currentHook;
           var baseQueue = current2.baseQueue;
           var pendingQueue = queue.pending;
@@ -14334,7 +14334,7 @@ var require_react_dom_development = __commonJS({
                   newState = update.eagerState;
                 } else {
                   var action = update.action;
-                  newState = reducer(newState, action);
+                  newState = reducer2(newState, action);
                 }
               }
               update = update.next;
@@ -14367,13 +14367,13 @@ var require_react_dom_development = __commonJS({
           var dispatch = queue.dispatch;
           return [hook.memoizedState, dispatch];
         }
-        function rerenderReducer(reducer, initialArg, init) {
+        function rerenderReducer(reducer2, initialArg, init) {
           var hook = updateWorkInProgressHook();
           var queue = hook.queue;
           if (queue === null) {
             throw new Error("Should have a queue. This is likely a bug in React. Please file an issue.");
           }
-          queue.lastRenderedReducer = reducer;
+          queue.lastRenderedReducer = reducer2;
           var dispatch = queue.dispatch;
           var lastRenderPhaseUpdate = queue.pending;
           var newState = hook.memoizedState;
@@ -14383,7 +14383,7 @@ var require_react_dom_development = __commonJS({
             var update = firstRenderPhaseUpdate;
             do {
               var action = update.action;
-              newState = reducer(newState, action);
+              newState = reducer2(newState, action);
               update = update.next;
             } while (update !== firstRenderPhaseUpdate);
             if (!objectIs(newState, hook.memoizedState)) {
@@ -15063,13 +15063,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               mountHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnMountInDEV;
               try {
-                return mountReducer(reducer, initialArg, init);
+                return mountReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15167,13 +15167,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnMountInDEV;
               try {
-                return mountReducer(reducer, initialArg, init);
+                return mountReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15271,13 +15271,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnUpdateInDEV;
               try {
-                return updateReducer(reducer, initialArg, init);
+                return updateReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15375,13 +15375,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnRerenderInDEV;
               try {
-                return rerenderReducer(reducer, initialArg, init);
+                return rerenderReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15487,14 +15487,14 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               warnInvalidHookAccess();
               mountHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnMountInDEV;
               try {
-                return mountReducer(reducer, initialArg, init);
+                return mountReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15608,14 +15608,14 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               warnInvalidHookAccess();
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnUpdateInDEV;
               try {
-                return updateReducer(reducer, initialArg, init);
+                return updateReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15729,14 +15729,14 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               warnInvalidHookAccess();
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnUpdateInDEV;
               try {
-                return rerenderReducer(reducer, initialArg, init);
+                return rerenderReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -23534,20 +23534,115 @@ var import_obsidian3 = require("obsidian");
 // src/obsidian-components/search-and-replace-modal.tsx
 var import_obsidian2 = require("obsidian");
 var import_client = __toESM(require_client());
-var React8 = __toESM(require_react());
+var React10 = __toESM(require_react());
 
 // src/react-components/SearchAndReplace.tsx
-var React7 = __toESM(require_react());
-var import_react = __toESM(require_react());
+var React9 = __toESM(require_react());
+var import_react6 = __toESM(require_react());
 
 // src/react-components/PromptInstructions.tsx
 var React = __toESM(require_react());
-var PromptInstructions = () => /* @__PURE__ */ React.createElement("div", { className: "prompt-instructions" }, /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2191\u2193"), /* @__PURE__ */ React.createElement("span", null, "to navigate")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to replace")));
+function PromptInstructions() {
+  return /* @__PURE__ */ React.createElement("div", { className: "prompt-instructions" }, /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2191\u2193"), /* @__PURE__ */ React.createElement("span", null, "to navigate")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to replace")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2318\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to open")));
+}
 
 // src/react-components/SearchInput.tsx
+var React4 = __toESM(require_react());
+
+// src/react-components/EnableRegexButton.tsx
 var React2 = __toESM(require_react());
-function SearchInput({ value, onChange }) {
-  return /* @__PURE__ */ React2.createElement("div", { className: "snr-input-icon-wrapper" }, /* @__PURE__ */ React2.createElement(
+function EnableRegexButton({
+  regexEnabled,
+  onToggleRegexSearch
+}) {
+  return /* @__PURE__ */ React2.createElement(
+    "div",
+    {
+      className: "workspace-tab-header",
+      "aria-label": "Enable regex search",
+      "aria-label-delay": "50"
+    },
+    /* @__PURE__ */ React2.createElement(
+      "div",
+      {
+        className: `workspace-tab-header-inner snr-workspace-tab-header-inner snr-regex-button ${regexEnabled ? "snr-workspace-tab-header-inner-icon-active" : ""}`,
+        onClick: onToggleRegexSearch
+      },
+      /* @__PURE__ */ React2.createElement("div", { className: "workspace-tab-header-inner-icon" }, /* @__PURE__ */ React2.createElement(
+        "svg",
+        {
+          xmlns: "http://www.w3.org/2000/svg",
+          width: "24",
+          height: "24",
+          viewBox: "0 0 24 24",
+          fill: "none",
+          stroke: "currentColor",
+          strokeWidth: "2",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          className: "svg-icon"
+        },
+        /* @__PURE__ */ React2.createElement("path", { d: "M17 3v10" }),
+        /* @__PURE__ */ React2.createElement("path", { d: "m12.67 5.5 8.66 5" }),
+        /* @__PURE__ */ React2.createElement("path", { d: "m12.67 10.5 8.66-5" }),
+        /* @__PURE__ */ React2.createElement("path", { d: "M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z" })
+      ))
+    )
+  );
+}
+
+// src/react-components/EnableCaseSensitivityButton.tsx
+var React3 = __toESM(require_react());
+function EnableCaseSensitivityButton({
+  caseSensitivityEnabled,
+  onToggleCaseSensitiveSearch
+}) {
+  return /* @__PURE__ */ React3.createElement(
+    "div",
+    {
+      className: "workspace-tab-header",
+      "aria-label": "Enable case-sensitive search",
+      "aria-label-delay": "50"
+    },
+    /* @__PURE__ */ React3.createElement(
+      "div",
+      {
+        className: `workspace-tab-header-inner snr-workspace-tab-header-inner ${caseSensitivityEnabled ? "snr-workspace-tab-header-inner-icon-active" : ""}`,
+        onClick: onToggleCaseSensitiveSearch
+      },
+      /* @__PURE__ */ React3.createElement("div", { className: "workspace-tab-header-inner-icon" }, /* @__PURE__ */ React3.createElement(
+        "svg",
+        {
+          xmlns: "http://www.w3.org/2000/svg",
+          width: "24",
+          height: "24",
+          viewBox: "0 0 24 24",
+          fill: "none",
+          stroke: "currentColor",
+          strokeWidth: "2",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          className: "svg-icon"
+        },
+        /* @__PURE__ */ React3.createElement("path", { d: "m3 15 4-8 4 8" }),
+        /* @__PURE__ */ React3.createElement("path", { d: "M4 13h6" }),
+        /* @__PURE__ */ React3.createElement("circle", { cx: "18", cy: "12", r: "3" }),
+        /* @__PURE__ */ React3.createElement("path", { d: "M21 9v6" })
+      ))
+    )
+  );
+}
+
+// src/react-components/SearchInput.tsx
+function SearchInput({
+  value,
+  onChange,
+  regexEnabled,
+  onToggleRegexSearch,
+  onToggleCaseSensitiveSearch,
+  caseSensitivityEnabled
+}) {
+  return /* @__PURE__ */ React4.createElement("div", { className: "snr-input-icon-wrapper" }, /* @__PURE__ */ React4.createElement(
     "input",
     {
       className: "prompt-input",
@@ -23558,13 +23653,25 @@ function SearchInput({ value, onChange }) {
       value,
       onChange
     }
+  ), /* @__PURE__ */ React4.createElement(
+    EnableCaseSensitivityButton,
+    {
+      caseSensitivityEnabled,
+      onToggleCaseSensitiveSearch
+    }
+  ), /* @__PURE__ */ React4.createElement(
+    EnableRegexButton,
+    {
+      regexEnabled,
+      onToggleRegexSearch
+    }
   ));
 }
 
 // src/react-components/ReplaceInput.tsx
-var React3 = __toESM(require_react());
+var React5 = __toESM(require_react());
 function ReplaceInput({ value, onChange }) {
-  return /* @__PURE__ */ React3.createElement("div", { className: "snr-input-button-wrapper" }, /* @__PURE__ */ React3.createElement(
+  return /* @__PURE__ */ React5.createElement("div", { className: "snr-input-button-wrapper" }, /* @__PURE__ */ React5.createElement(
     "input",
     {
       className: "prompt-input",
@@ -23578,30 +23685,30 @@ function ReplaceInput({ value, onChange }) {
 }
 
 // src/react-components/SearchResultsContainer.tsx
-var React5 = __toESM(require_react());
+var React7 = __toESM(require_react());
 
 // src/react-components/SearchResultDisplay.tsx
-var React4 = __toESM(require_react());
-var SearchResultDisplay = ({
+var React6 = __toESM(require_react());
+function SearchResultDisplay({
   isSelected,
   searchResult,
   index,
-  selectedIndexChangeHandler,
-  searchResultChosenHandler
-}) => {
-  return /* @__PURE__ */ React4.createElement(
+  onSelectedIndexChanged,
+  onSearchResultChosen
+}) {
+  return /* @__PURE__ */ React6.createElement(
     "div",
     {
-      onPointerMove: () => selectedIndexChangeHandler(index),
-      onPointerDown: () => selectedIndexChangeHandler(index),
-      onPointerUp: searchResultChosenHandler,
+      onPointerMove: () => onSelectedIndexChanged(index),
+      onPointerDown: () => onSelectedIndexChanged(index),
+      onPointerUp: onSearchResultChosen,
       "data-search-result-index": index,
       className: `suggestion-item mod-complex ${isSelected ? "is-selected" : ""}`
     },
-    /* @__PURE__ */ React4.createElement("div", { className: "suggestion-content snr-suggestion-content" }, /* @__PURE__ */ React4.createElement("div", { className: "suggestion-title" }, searchResult.getBeforeMatchSubstring(), /* @__PURE__ */ React4.createElement("span", { className: "snr-highlight" }, searchResult.getMatchSubstring()), searchResult.getAfterMatchSubstring())),
-    /* @__PURE__ */ React4.createElement("div", { className: "suggestion-aux snr-suggestion-aux" }, /* @__PURE__ */ React4.createElement("span", { className: "suggestion-flair snr-suggestion-flair" }, searchResult.filePath), /* @__PURE__ */ React4.createElement("span", { className: "snr-line-number" }, searchResult.lineNumber))
+    /* @__PURE__ */ React6.createElement("div", { className: "suggestion-content snr-suggestion-content" }, /* @__PURE__ */ React6.createElement("div", { className: "suggestion-title" }, searchResult.getBeforeMatchSubstring(), /* @__PURE__ */ React6.createElement("span", { className: "snr-highlight" }, searchResult.getMatchSubstring()), searchResult.getAfterMatchSubstring())),
+    /* @__PURE__ */ React6.createElement("div", { className: "suggestion-aux snr-suggestion-aux" }, /* @__PURE__ */ React6.createElement("span", { className: "suggestion-flair snr-suggestion-flair" }, searchResult.filePath), /* @__PURE__ */ React6.createElement("span", { className: "snr-line-number" }, searchResult.lineNumber))
   );
-};
+}
 
 // src/react-components/SearchResultsContainer.tsx
 function createKey(searchResult) {
@@ -23611,23 +23718,23 @@ function SearchResultsContainer({
   searchResults,
   selectedIndex,
   numberOfResultsToDisplay,
-  selectedIndexChangedHandler,
-  scrollThresholdExceededHandler,
-  searchResultChosenHandler
+  onSelectedIndexChanged,
+  onScrollThresholdExceeded,
+  onSearchResultChosen
 }) {
   const resultsMarkup = searchResults.map((searchResult, index) => {
     const key = createKey(searchResult);
     if (index >= numberOfResultsToDisplay)
       return null;
-    return /* @__PURE__ */ React5.createElement(
+    return /* @__PURE__ */ React7.createElement(
       SearchResultDisplay,
       {
         key,
         index,
         isSelected: index == selectedIndex,
         searchResult,
-        selectedIndexChangeHandler: selectedIndexChangedHandler,
-        searchResultChosenHandler
+        onSelectedIndexChanged,
+        onSearchResultChosen
       }
     );
   });
@@ -23638,11 +23745,85 @@ function SearchResultsContainer({
     const scrollOffsetFromTop = promptResultsDiv.scrollTop;
     const scrollPercentage = (scrollOffsetFromTop + elementActualHeight) / elementTotalHeightWithOverflow;
     if (scrollPercentage >= 0.95) {
-      scrollThresholdExceededHandler();
+      onScrollThresholdExceeded();
     }
   }
-  return /* @__PURE__ */ React5.createElement("div", { onScroll: handleScroll, className: "prompt-results" }, resultsMarkup);
+  return /* @__PURE__ */ React7.createElement("div", { onScroll: handleScroll, className: "prompt-results" }, resultsMarkup);
 }
+var SearchResultsContainer_default = React7.memo(SearchResultsContainer);
+
+// src/util/utils.ts
+function isBlank(str) {
+  return !str || /^\s*$/.test(str);
+}
+function findLastIndex(array, predicate) {
+  let l = array.length;
+  while (l--) {
+    if (predicate(array[l], l, array))
+      return l;
+  }
+  return -1;
+}
+
+// src/react-components/ResultsNumberSummary.tsx
+var React8 = __toESM(require_react());
+function ResultsNumberSummary({
+  numberOfResults,
+  numberOfFilesWithMatches
+}) {
+  return /* @__PURE__ */ React8.createElement("div", { className: "snr-result-summary" }, numberOfResults, " matches found in ", numberOfFilesWithMatches, " files");
+}
+
+// src/react-components/use-replace-selection.ts
+var import_react = __toESM(require_react());
+function useReplaceSelection(state, dispatch, fileOperator) {
+  return (0, import_react.useCallback)(async () => {
+    if (state.searchResults.length === 0)
+      return;
+    const replaceOperationResult = await fileOperator.replace(
+      state.searchResults[state.selectedIndex],
+      state.replacementText,
+      state.searchQuery,
+      state.regexEnabled,
+      state.caseSensitivityEnabled
+    );
+    dispatch({ type: "replace", replaceOperationResult });
+  }, [
+    dispatch,
+    fileOperator,
+    state.caseSensitivityEnabled,
+    state.regexEnabled,
+    state.replacementText,
+    state.searchQuery,
+    state.searchResults,
+    state.selectedIndex
+  ]);
+}
+
+// src/react-components/use-scroll-selected-search-result-into-view.ts
+var import_react2 = __toESM(require_react());
+function useScrollSelectedSearchResultIntoView(selectedSearchResultIndex) {
+  (0, import_react2.useEffect)(() => {
+    scrollIntoView(selectedSearchResultIndex);
+  }, [selectedSearchResultIndex]);
+}
+function scrollIntoView(selectedIndex) {
+  const searchResultElement = document.querySelector(
+    `[data-search-result-index="${selectedIndex}"]`
+  );
+  searchResultElement == null ? void 0 : searchResultElement.scrollIntoView({ behavior: "auto", block: "nearest" });
+}
+
+// src/react-components/use-open-selection-in-editor.ts
+var import_react3 = __toESM(require_react());
+function useOpenSelectionInEditor(fileOperator, state) {
+  return (0, import_react3.useCallback)(async () => {
+    await fileOperator.open(state.searchResults[state.selectedIndex]);
+  }, [fileOperator, state.searchResults, state.selectedIndex]);
+}
+
+// src/react-components/use-bind-obsidian-event-handlers.ts
+var import_react4 = __toESM(require_react());
 
 // src/infrastructure/event-bridge.ts
 var EventBridge = class {
@@ -23650,10 +23831,276 @@ var EventBridge = class {
     __publicField(this, "onArrowUp");
     __publicField(this, "onArrowDown");
     __publicField(this, "onEnter");
+    __publicField(this, "onCommandEnter");
   }
 };
 var eventBridge = new EventBridge();
 var event_bridge_default = eventBridge;
+
+// src/react-components/use-bind-obsidian-event-handlers.ts
+function useBindObsidianEventHandlers(dispatch, replaceSelection, openSelectionInEditor) {
+  (0, import_react4.useEffect)(() => {
+    event_bridge_default.onArrowUp = () => dispatch({ type: "move_selection_up" });
+    event_bridge_default.onArrowDown = () => dispatch({ type: "move_selection_down" });
+    event_bridge_default.onEnter = replaceSelection;
+    event_bridge_default.onCommandEnter = openSelectionInEditor;
+  }, [replaceSelection, openSelectionInEditor, dispatch]);
+}
+
+// src/react-components/use-search.ts
+var import_react5 = __toESM(require_react());
+var import_obsidian = require("obsidian");
+function useSearch(state, dispatch, fileOperator) {
+  const search = (0, import_react5.useCallback)(
+    async (query, withRegex, withCaseSensitivity) => {
+      const { searchResults, numberOfFilesWithMatches } = await fileOperator.search(
+        query,
+        withRegex,
+        withCaseSensitivity
+      );
+      dispatch({
+        type: "search",
+        payload: {
+          nextNumberOfFilesWithMatches: numberOfFilesWithMatches,
+          nextSearchResults: searchResults
+        }
+      });
+    },
+    [dispatch, fileOperator]
+  );
+  const debouncedSearch = (0, import_react5.useMemo)(
+    () => (0, import_obsidian.debounce)(
+      (query, withRegex, withCaseSensitivity) => search(query, withRegex, withCaseSensitivity),
+      300,
+      true
+    ),
+    [search]
+  );
+  (0, import_react5.useEffect)(() => {
+    if (isBlank(state.searchQuery)) {
+      dispatch({ type: "clear" });
+      return;
+    }
+    debouncedSearch(state.searchQuery, state.regexEnabled, state.caseSensitivityEnabled);
+  }, [
+    state.searchQuery,
+    state.regexEnabled,
+    state.caseSensitivityEnabled,
+    debouncedSearch,
+    dispatch
+  ]);
+}
+
+// src/react-components/SearchAndReplace.tsx
+var NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH = 20;
+function reducer(state, action) {
+  switch (action.type) {
+    case "clear": {
+      return {
+        ...state,
+        searchResults: [],
+        numberOfFilesWithMatches: 0
+      };
+    }
+    case "move_selection_up": {
+      const { selectedIndex } = state;
+      const nextSelectedIndex = selectedIndex === 0 ? selectedIndex : selectedIndex - 1;
+      return { ...state, selectedIndex: nextSelectedIndex };
+    }
+    case "move_selection_down": {
+      const { selectedIndex, searchResults } = state;
+      const nextSelectedIndex = selectedIndex === searchResults.length - 1 ? selectedIndex : selectedIndex + 1;
+      return { ...state, selectedIndex: nextSelectedIndex };
+    }
+    case "update_replacement_text": {
+      const { nextReplacementText } = action;
+      return { ...state, replacementText: nextReplacementText };
+    }
+    case "update_selected_index": {
+      const { nextSelectedIndex } = action;
+      return { ...state, selectedIndex: nextSelectedIndex };
+    }
+    case "toggle_regex_enabled": {
+      const { regexEnabled } = state;
+      return { ...state, regexEnabled: !regexEnabled };
+    }
+    case "toggle_case_sensitivity_enabled": {
+      const { caseSensitivityEnabled } = state;
+      return { ...state, caseSensitivityEnabled: !caseSensitivityEnabled };
+    }
+    case "scroll_threshold_exceeded": {
+      const { numberOfResultsToDisplay } = state;
+      const nextNumberOfResultsToDisplay = numberOfResultsToDisplay + NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH;
+      return { ...state, numberOfResultsToDisplay: nextNumberOfResultsToDisplay };
+    }
+    case "search": {
+      const { nextSearchResults, nextNumberOfFilesWithMatches } = action.payload;
+      return {
+        ...state,
+        searchResults: nextSearchResults,
+        numberOfFilesWithMatches: nextNumberOfFilesWithMatches,
+        selectedIndex: 0,
+        numberOfResultsToDisplay: NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH
+      };
+    }
+    case "update_search_query": {
+      const { nextSearchQuery } = action;
+      return { ...state, searchQuery: nextSearchQuery };
+    }
+    case "replace": {
+      const { replaceOperationResult } = action;
+      const { searchResults, selectedIndex } = state;
+      if (!replaceOperationResult) {
+        const nextSearchResults2 = searchResults.filter((_, i) => i !== selectedIndex);
+        return { ...state, searchResults: nextSearchResults2 };
+      }
+      const hasSameFilePathAndLineNumber = (r) => {
+        const samePath = r.filePath === replaceOperationResult.filePath;
+        const sameLineNumber = r.lineNumber === replaceOperationResult.lineNumber;
+        return samePath && sameLineNumber;
+      };
+      const firstIndexOfSamePathAndLineNumber = searchResults.findIndex(
+        hasSameFilePathAndLineNumber
+      );
+      const lastIndexOfSamePathAndLineNumber = findLastIndex(
+        searchResults,
+        hasSameFilePathAndLineNumber
+      );
+      const outOfBounds = selectedIndex > searchResults.length - 2;
+      const nextSelectedIndex = outOfBounds ? selectedIndex - 1 : selectedIndex;
+      const nextSearchResults = [
+        ...searchResults.slice(0, firstIndexOfSamePathAndLineNumber),
+        ...replaceOperationResult.lineSearchResults,
+        ...searchResults.slice(lastIndexOfSamePathAndLineNumber + 1)
+      ];
+      return {
+        ...state,
+        searchResults: nextSearchResults,
+        selectedIndex: nextSelectedIndex
+      };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action}`);
+    }
+  }
+}
+function SearchAndReplace({ fileOperator }) {
+  const [state, dispatch] = (0, import_react6.useReducer)(reducer, {
+    searchQuery: "",
+    replacementText: "",
+    selectedIndex: 0,
+    numberOfResultsToDisplay: NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH,
+    regexEnabled: false,
+    caseSensitivityEnabled: false,
+    searchResults: [],
+    numberOfFilesWithMatches: 0
+  });
+  useSearch(state, dispatch, fileOperator);
+  useScrollSelectedSearchResultIntoView(state.selectedIndex);
+  const replaceSelection = useReplaceSelection(state, dispatch, fileOperator);
+  const openSelectionInEditor = useOpenSelectionInEditor(fileOperator, state);
+  useBindObsidianEventHandlers(dispatch, replaceSelection, openSelectionInEditor);
+  const handleReplaceInputChanged = (0, import_react6.useCallback)((event) => {
+    dispatch({ type: "update_replacement_text", nextReplacementText: event.target.value });
+  }, []);
+  const handleSearchInputChanged = (0, import_react6.useCallback)((event) => {
+    dispatch({ type: "update_search_query", nextSearchQuery: event.target.value });
+  }, []);
+  const handleScrollThresholdExceeded = (0, import_react6.useCallback)(() => {
+    dispatch({ type: "scroll_threshold_exceeded" });
+  }, []);
+  const handleSelectedIndexChanged = (0, import_react6.useCallback)((i) => {
+    dispatch({ type: "update_selected_index", nextSelectedIndex: i });
+  }, []);
+  const handleToggleRegexSearch = (0, import_react6.useCallback)(() => {
+    dispatch({ type: "clear" });
+    dispatch({ type: "toggle_regex_enabled" });
+  }, []);
+  const handleToggleCaseSensitiveSearch = (0, import_react6.useCallback)(() => {
+    dispatch({ type: "clear" });
+    dispatch({ type: "toggle_case_sensitivity_enabled" });
+  }, []);
+  return /* @__PURE__ */ React9.createElement(React9.Fragment, null, /* @__PURE__ */ React9.createElement(
+    SearchInput,
+    {
+      value: state.searchQuery,
+      onChange: handleSearchInputChanged,
+      regexEnabled: state.regexEnabled,
+      onToggleRegexSearch: handleToggleRegexSearch,
+      caseSensitivityEnabled: state.caseSensitivityEnabled,
+      onToggleCaseSensitiveSearch: handleToggleCaseSensitiveSearch
+    }
+  ), /* @__PURE__ */ React9.createElement(ReplaceInput, { value: state.replacementText, onChange: handleReplaceInputChanged }), /* @__PURE__ */ React9.createElement(
+    SearchResultsContainer_default,
+    {
+      searchResults: state.searchResults,
+      selectedIndex: state.selectedIndex,
+      numberOfResultsToDisplay: state.numberOfResultsToDisplay,
+      onSelectedIndexChanged: handleSelectedIndexChanged,
+      onScrollThresholdExceeded: handleScrollThresholdExceeded,
+      onSearchResultChosen: replaceSelection
+    }
+  ), /* @__PURE__ */ React9.createElement(
+    ResultsNumberSummary,
+    {
+      numberOfResults: state.searchResults.length,
+      numberOfFilesWithMatches: state.numberOfFilesWithMatches
+    }
+  ), /* @__PURE__ */ React9.createElement(PromptInstructions, null));
+}
+
+// src/obsidian-components/search-and-replace-modal.tsx
+var SearchAndReplaceModal = class extends import_obsidian2.Modal {
+  constructor(app, fileOperator) {
+    super(app);
+    __publicField(this, "reactRoot");
+    __publicField(this, "fileOperator");
+    this.prepareModalEl();
+    this.reactRoot = (0, import_client.createRoot)(this.modalEl);
+    this.registerEventListeners();
+    this.fileOperator = fileOperator;
+  }
+  prepareModalEl() {
+    this.modalEl.replaceChildren();
+    this.modalEl.addClass("prompt");
+    this.modalEl.removeClass("modal");
+  }
+  registerEventListeners() {
+    this.scope.register([], "ArrowUp", (e, ctx) => {
+      var _a, _b;
+      e.preventDefault();
+      (_b = (_a = event_bridge_default).onArrowUp) == null ? void 0 : _b.call(_a, e, ctx);
+    });
+    this.scope.register([], "ArrowDown", (e, ctx) => {
+      var _a, _b;
+      e.preventDefault();
+      (_b = (_a = event_bridge_default).onArrowDown) == null ? void 0 : _b.call(_a, e, ctx);
+    });
+    this.scope.register([], "Enter", (e, ctx) => {
+      var _a, _b;
+      e.preventDefault();
+      if (e.repeat)
+        return;
+      (_b = (_a = event_bridge_default).onEnter) == null ? void 0 : _b.call(_a, e, ctx);
+    });
+    this.scope.register(["Mod"], "Enter", (e, ctx) => {
+      var _a, _b;
+      e.preventDefault();
+      if (e.repeat)
+        return;
+      (_b = (_a = event_bridge_default).onCommandEnter) == null ? void 0 : _b.call(_a, e, ctx);
+      this.close();
+    });
+  }
+  onOpen() {
+    this.reactRoot.render(
+      /* @__PURE__ */ React10.createElement(SearchAndReplace, { fileOperator: this.fileOperator })
+    );
+  }
+  onClose() {
+    this.reactRoot.unmount();
+  }
+};
 
 // src/domain/search-result.ts
 var SearchResult = class {
@@ -23685,79 +24132,67 @@ var SearchResult = class {
   }
 };
 
-// src/util/utils.ts
-function isBlank(str) {
-  return !str || /^\s*$/.test(str);
-}
-function findLastIndex(array, predicate) {
-  let l = array.length;
-  while (l--) {
-    if (predicate(array[l], l, array))
-      return l;
-  }
-  return -1;
-}
-
 // src/domain/file-operator.ts
 var NEW_LINE_REGEX = /\r?\n|\r|\n/g;
+var EMPTY_SEARCH_OPERATION_RESULT = {
+  numberOfFilesWithMatches: 0,
+  searchResults: []
+};
 var FileOperator = class {
-  constructor() {
+  constructor(app) {
     __publicField(this, "app");
     this.app = app;
   }
-  async search(query) {
+  async search(query, regexEnabled, caseSensitivityEnabled) {
     if (isBlank(query)) {
-      return {
-        numberOfFilesWithMatches: 0,
-        searchResults: []
-      };
+      return EMPTY_SEARCH_OPERATION_RESULT;
     }
-    const queryRegex = this.createQueryRegex(query);
+    const queryRegex = this.createQueryRegex(query, regexEnabled, caseSensitivityEnabled);
     const markdownFiles = this.app.vault.getMarkdownFiles();
     const searchResults = [];
     let numberOfFilesWithMatches = 0;
     for (const file of markdownFiles) {
       const contents = await this.app.vault.read(file);
       const lines = this.splitIntoLines(contents);
-      let foundAMatchInThisFile = false;
+      let foundAMatchInCurrentFile = false;
       lines.forEach((line, i) => {
         const intermediateResults = this.searchInLine(
           line,
           i + 1,
           file,
-          query,
           queryRegex
         );
         if (intermediateResults.length !== 0) {
-          foundAMatchInThisFile = true;
+          foundAMatchInCurrentFile = true;
         }
         searchResults.push(...intermediateResults);
       });
-      if (foundAMatchInThisFile) {
+      if (foundAMatchInCurrentFile) {
         numberOfFilesWithMatches++;
+        foundAMatchInCurrentFile = false;
       }
-      foundAMatchInThisFile = false;
     }
     return { searchResults, numberOfFilesWithMatches };
   }
-  createQueryRegex(query) {
-    return new RegExp(this.escapeRegexString(query), "g");
+  createQueryRegex(query, regexEnabled, caseSensitivityEnabled) {
+    let flags = "g";
+    if (!caseSensitivityEnabled) {
+      flags += "i";
+    }
+    query = regexEnabled ? query : this.escapeRegexString(query);
+    return new RegExp(query, flags);
   }
-  searchInLine(line, lineNumber, file, query, queryRegex) {
-    const matches = line.matchAll(
-      queryRegex ? queryRegex : this.createQueryRegex(query)
-    );
+  searchInLine(line, lineNumber, file, queryRegex) {
+    const matches = line.matchAll(queryRegex);
     return [...matches].map((match) => {
       if (match.index === void 0)
-        throw new Error(
-          "Regex match index was undefined. This should never happen."
-        );
+        throw new Error("Regex match index was undefined. This should never happen.");
       return new SearchResult(
         line,
         lineNumber,
         file.path,
         match.index,
-        match.index + query.length - 1,
+        match.index + match[0].length - 1,
         file
       );
     });
@@ -23765,7 +24200,7 @@ var FileOperator = class {
   splitIntoLines(contents) {
     return contents.split(NEW_LINE_REGEX);
   }
-  async replace(searchResult, replacementText, query) {
+  async replace(searchResult, replacementText, query, regexEnabled, caseSensitivityEnabled) {
     const file = searchResult.file;
     if (!file)
       return;
@@ -23787,13 +24222,18 @@ var FileOperator = class {
         ch: searchResult.matchEndIndex + 1
       }
     );
-    editor.replaceSelection(replacementText);
+    const queryRegex = this.createQueryRegex(query, regexEnabled, caseSensitivityEnabled);
+    if (regexEnabled) {
+      editor.replaceSelection(editor.getSelection().replaceAll(queryRegex, replacementText));
+    } else {
+      editor.replaceSelection(replacementText);
+    }
     await this.app.vault.modify(file, editor.getValue());
     const lineSearchResults = this.searchInLine(
       editor.getLine(searchResult.lineNumber - 1),
       searchResult.lineNumber,
       file,
-      query
+      queryRegex
     );
     return {
       lineSearchResults,
@@ -23801,227 +24241,30 @@ var FileOperator = class {
       lineNumber: searchResult.lineNumber
     };
   }
+  async open(searchResult) {
+    if (searchResult.filePath) {
+      await this.app.workspace.openLinkText(searchResult.filePath, "");
+      const activeEditor = this.app.workspace.activeEditor;
+      const editingTheCorrectFile = (activeEditor == null ? void 0 : activeEditor.file) === searchResult.file;
+      if (!editingTheCorrectFile)
+        return;
+      const editor = activeEditor == null ? void 0 : activeEditor.editor;
+      if (!editor)
+        return;
+      editor.setSelection(
+        {
+          line: searchResult.lineNumber - 1,
+          ch: searchResult.matchStartIndex
+        },
+        {
+          line: searchResult.lineNumber - 1,
+          ch: searchResult.matchEndIndex + 1
+        }
+      );
+    }
+  }
   escapeRegexString(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  }
-};
-var fileOperator = new FileOperator();
-var file_operator_default = fileOperator;
-
-// src/react-components/ResultsNumberSummary.tsx
-var React6 = __toESM(require_react());
-function ResultsNumberSummary({
-  numberOfResults,
-  numberOfFilesWithMatches
-}) {
-  return /* @__PURE__ */ React6.createElement("div", { className: "snr-result-summary" }, numberOfResults, " matches found in ", numberOfFilesWithMatches, " files");
-}
-
-// src/react-components/SearchAndReplace.tsx
-var import_obsidian = require("obsidian");
-var NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER = 20;
-function SearchAndReplace() {
-  const [searchText, setSearchText] = (0, import_react.useState)("");
-  const [replaceText, setReplaceText] = (0, import_react.useState)("");
-  const [selectedIndex, setSelectedIndex] = (0, import_react.useState)(0);
-  const [searchResults, setSearchResults] = (0, import_react.useState)([]);
-  const [numberOfResultsToDisplay, setNumberOfResultsToDisplay] = (0, import_react.useState)(
-    NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-  );
-  const [numberOfFilesWithMatches, setNumberOfFilesWithMatches] = (0, import_react.useState)(0);
-  const handleArrowUp = (0, import_react.useCallback)(() => {
-    setSelectedIndex((i) => {
-      let newIndex;
-      if (i === 0) {
-        newIndex = i;
-      } else {
-        newIndex = i - 1;
-      }
-      scrollIntoView(newIndex);
-      return newIndex;
-    });
-  }, []);
-  const handleArrowDown = (0, import_react.useCallback)(() => {
-    setSelectedIndex((i) => {
-      let newIndex;
-      if (i === searchResults.length - 1) {
-        newIndex = i;
-      } else {
-        newIndex = i + 1;
-      }
-      scrollIntoView(newIndex);
-      return newIndex;
-    });
-  }, [searchResults]);
-  const handleEnterOrClick = (0, import_react.useCallback)(async () => {
-    if (searchResults.length === 0)
-      return;
-    const replaceOperationResult = await file_operator_default.replace(
-      searchResults[selectedIndex],
-      replaceText,
-      searchText
-    );
-    if (!replaceOperationResult) {
-      setSearchResults((previousResults) => {
-        return previousResults.filter((r, i) => i !== selectedIndex);
-      });
-    } else {
-      setSearchResults((previousResults) => {
-        const hasSameFilePathAndLineNumber = (r) => {
-          const samePath = r.filePath === replaceOperationResult.filePath;
-          const sameLineNumber = r.lineNumber === replaceOperationResult.lineNumber;
-          return samePath && sameLineNumber;
-        };
-        const firstIndexOfSamePathAndLineNumber = previousResults.findIndex(hasSameFilePathAndLineNumber);
-        const lastIndexOfSamePathAndLineNumber = findLastIndex(
-          previousResults,
-          hasSameFilePathAndLineNumber
-        );
-        if (selectedIndex > searchResults.length - 2) {
-          setSelectedIndex((s) => s - 1);
-        }
-        return [
-          ...previousResults.slice(
-            0,
-            firstIndexOfSamePathAndLineNumber
-          ),
-          ...replaceOperationResult.lineSearchResults,
-          ...previousResults.slice(
-            lastIndexOfSamePathAndLineNumber + 1
-          )
-        ];
-      });
-    }
-  }, [selectedIndex, searchResults, replaceText, searchText]);
-  (0, import_react.useEffect)(() => {
-    event_bridge_default.onArrowUp = handleArrowUp;
-    event_bridge_default.onArrowDown = handleArrowDown;
-    event_bridge_default.onEnter = handleEnterOrClick;
-  }, [handleArrowUp, handleArrowDown, handleEnterOrClick]);
-  const handleReplaceInputChanged = (event) => {
-    setReplaceText(event.target.value);
-  };
-  const handleSearchInputChanged = async (event) => {
-    const query = event.target.value;
-    setSearchText(query);
-    if (isBlank(query)) {
-      setSearchResults([]);
-      setNumberOfFilesWithMatches(0);
-      return;
-    }
-    debouncedSearch(query);
-  };
-  const debouncedSearch = (0, import_react.useCallback)(
-    (0, import_obsidian.debounce)(
-      async (query) => {
-        const { searchResults: searchResults2, numberOfFilesWithMatches: numberOfFilesWithMatches2 } = await file_operator_default.search(query);
-        setNumberOfFilesWithMatches(numberOfFilesWithMatches2);
-        setSearchResults(searchResults2);
-        setSelectedIndex(0);
-        scrollIntoView(0);
-        setNumberOfResultsToDisplay(
-          NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-        );
-      },
-      500,
-      false
-    ),
-    []
-  );
-  const scrollThresholdExceededHandler = (0, import_react.useCallback)(
-    () => setNumberOfResultsToDisplay(
-      (n) => n + NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-    ),
-    []
-  );
-  const selectedIndexChangedHandler = (0, import_react.useCallback)((i) => {
-    setSelectedIndex(i);
-    scrollIntoView(i);
-  }, []);
-  return /* @__PURE__ */ React7.createElement(React7.Fragment, null, /* @__PURE__ */ React7.createElement(
-    SearchInput,
-    {
-      value: searchText,
-      onChange: handleSearchInputChanged
-    }
-  ), /* @__PURE__ */ React7.createElement(
-    ReplaceInput,
-    {
-      value: replaceText,
-      onChange: handleReplaceInputChanged
-    }
-  ), /* @__PURE__ */ React7.createElement(
-    SearchResultsContainer,
-    {
-      selectedIndex,
-      selectedIndexChangedHandler,
-      numberOfResultsToDisplay,
-      searchResults,
-      scrollThresholdExceededHandler,
-      searchResultChosenHandler: handleEnterOrClick
-    }
-  ), /* @__PURE__ */ React7.createElement(
-    ResultsNumberSummary,
-    {
-      numberOfResults: searchResults.length,
-      numberOfFilesWithMatches
-    }
-  ), /* @__PURE__ */ React7.createElement(PromptInstructions, null));
-}
-function scrollIntoView(selectedIndex) {
-  const searchResultElement = document.querySelector(
-    `[data-search-result-index="${selectedIndex}"]`
-  );
-  searchResultElement == null ? void 0 : searchResultElement.scrollIntoView({ behavior: "auto", block: "nearest" });
-}
-
-// src/obsidian-components/search-and-replace-modal.tsx
-var SearchAndReplaceModal = class extends import_obsidian2.Modal {
-  constructor(app2) {
-    super(app2);
-    __publicField(this, "root");
-    this.prepareModalEl();
-    this.initReactRoot();
-    this.registerEventListeners();
-  }
-  initReactRoot() {
-    this.root = (0, import_client.createRoot)(this.modalEl);
-  }
-  prepareModalEl() {
-    this.modalEl.replaceChildren();
-    this.modalEl.addClass("prompt");
-    this.modalEl.removeClass("modal");
-  }
-  registerEventListeners() {
-    this.scope.register([], "ArrowUp", (e, ctx) => {
-      var _a, _b;
-      e.preventDefault();
-      (_b = (_a = event_bridge_default).onArrowUp) == null ? void 0 : _b.call(_a, e, ctx);
-    });
-    this.scope.register([], "ArrowDown", (e, ctx) => {
-      var _a, _b;
-      e.preventDefault();
-      (_b = (_a = event_bridge_default).onArrowDown) == null ? void 0 : _b.call(_a, e, ctx);
-    });
-    this.scope.register([], "Enter", (e, ctx) => {
-      var _a, _b;
-      e.preventDefault();
-      if (e.repeat)
-        return;
-      (_b = (_a = event_bridge_default).onEnter) == null ? void 0 : _b.call(_a, e, ctx);
-    });
-  }
-  onOpen() {
-    if (!this.root)
-      return;
-    this.root.render(
-      /* @__PURE__ */ React8.createElement(React8.StrictMode, null, /* @__PURE__ */ React8.createElement(SearchAndReplace, null))
-    );
-  }
-  onClose() {
-    if (!this.root)
-      return;
-    this.root.unmount();
   }
 };
 
@@ -24030,20 +24273,22 @@ var DEFAULT_SETTINGS = {
   replaceAllEnabled: false
 };
 var SearchAndReplacePlugin = class extends import_obsidian3.Plugin {
-  constructor() {
-    super(...arguments);
+  constructor(app, manifest) {
+    super(app, manifest);
     __publicField(this, "settings");
+    __publicField(this, "fileOperator");
+    this.fileOperator = new FileOperator(app);
   }
   async onload() {
     await this.loadSettings();
-    this.thisAddPluginCommand();
+    this.addPluginCommand();
   }
-  thisAddPluginCommand() {
+  addPluginCommand() {
     this.addCommand({
-      id: "snr-search-and-replace",
+      id: "search-and-replace",
       name: "Search and Replace in all files",
       callback: () => {
-        new SearchAndReplaceModal(this.app).open();
+        new SearchAndReplaceModal(this.app, this.fileOperator).open();
       }
     });
   }
@@ -24108,3 +24353,5 @@ react-dom/cjs/react-dom.development.js:
    * @license Modernizr 3.0.0pre (Custom Build) | MIT
    *)
 */
+
+/* nosourcemap */
