@@ -11,10 +11,14 @@
             "id": "c6d62410c02a9d71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Strixhaven Adventure Hooks"
             }
           }
         ]
