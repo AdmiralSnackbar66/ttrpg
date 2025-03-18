@@ -1,4 +1,10 @@
 Test scratch note
 
-Testing the sync with git
+Is this synced with Github. Im not sure it is?
+
+This may be syncing after all
+
+
+
+Is Desmond a nutter?
 

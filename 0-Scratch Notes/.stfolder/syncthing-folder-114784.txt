@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: pyzec-shnyp
+created: 2025-03-18T19:59:04Z
