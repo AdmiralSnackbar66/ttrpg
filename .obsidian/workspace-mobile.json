@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf3570337d5d3aa3",
+        "id": "dd5ae83a420312b9",
         "type": "tabs",
         "children": [
           {
-            "id": "c6d62410c02a9d71",
+            "id": "c71a37e412956b59",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -194,9 +194,19 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "96ab545a30102c2a",
+        "type": "leaf",
+        "state": {
+          "type": "fantasy-statblocks-creature-pane",
+          "state": {},
+          "icon": "skull",
+          "title": "Combatant"
+        }
       }
     ],
-    "currentTab": 7
+    "currentTab": 8
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,23 +220,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "calendarium:Open Calendarium": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "c6d62410c02a9d71",
+  "active": "c71a37e412956b59",
   "lastOpenFiles": [
+    "Starting the adventure.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "Monsters.md",
+    "General.md",
     "ttrpgs/TTRPGs Games Index.md",
     "monsters/5e/Angel - archangel hala’ath.md",
     "GM tools.md",
-    "Monsters.md",
     "monsters/5e/Treant.md",
     "ttrpgs/Strixhaven/World.md",
     "ttrpgs/Strixhaven/001_20250318.md",
@@ -246,8 +257,6 @@
     "monsters/5e/Grimlock Technical (A5E).md",
     "monsters/5e/Adult Shadow Dragon Spellcaster (A5E).md",
     "monsters/5e/Moonchild Naga.md",
-    "monsters/5e/Herd skulker.md",
-    "monsters/5e/Mind Flayer.md",
     "monsters/5e",
     "monsters/Pathfinder 2e",
     "monsters",
