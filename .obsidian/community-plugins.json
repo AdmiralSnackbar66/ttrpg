@@ -29,5 +29,6 @@
   "quartz-syncer",
   "obsidian-mkdocs-publisher",
   "google-photos",
+  "github-sync",
   "obsidian-git"
 ]

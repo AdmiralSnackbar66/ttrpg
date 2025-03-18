@@ -11,16 +11,10 @@
             "id": "c6d62410c02a9d71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Monsters.md",
-                "file": "0-Scratch Notes/Strixhaven Adventure Hooks.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Monsters"
-              "title": "Strixhaven Adventure Hooks"
+              "title": "New tab"
             }
           }
         ]
@@ -100,7 +94,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Monsters.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +125,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Monsters.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -199,22 +191,12 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "96ab545a30102c2a",
-        "type": "leaf",
-        "state": {
-          "type": "fantasy-statblocks-creature-pane",
-          "state": {},
-          "icon": "skull",
-          "title": "Combatant"
+          "icon": "git-pull-request",
+          "title": "Source Control"
         }
       }
     ],
-    "currentTab": 8
+    "currentTab": 7
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,18 +210,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
+      "calendarium:Open Calendarium": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-git:Open Git source control": false,
-      "calendarium:Open Calendarium": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "c6d62410c02a9d71",
   "lastOpenFiles": [
-    "General.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "ttrpgs/TTRPGs Games Index.md",
     "monsters/5e/Angel - archangel hala’ath.md",
@@ -265,6 +247,7 @@
     "monsters/5e/Adult Shadow Dragon Spellcaster (A5E).md",
     "monsters/5e/Moonchild Naga.md",
     "monsters/5e/Herd skulker.md",
+    "monsters/5e/Mind Flayer.md",
     "monsters/5e",
     "monsters/Pathfinder 2e",
     "monsters",
