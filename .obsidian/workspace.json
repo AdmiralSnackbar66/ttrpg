@@ -55,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -147,12 +148,52 @@
             "state": {
               "type": "todo",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "657eb377448a9268",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6aa4c28a618a43b1",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e6ffe6a669c9a415",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "cfb6be1d13a36ac1",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
               "icon": "checkmark",
               "title": "Todo List"
             }
           },
           {
-            "id": "657eb377448a9268",
+            "id": "d115743abaa25619",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -162,7 +203,7 @@
             }
           },
           {
-            "id": "6aa4c28a618a43b1",
+            "id": "5774400ce7957819",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -172,16 +213,29 @@
             }
           },
           {
-            "id": "e6ffe6a669c9a415",
+            "id": "a30fbc2aa852137b",
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_f89a1af98a1b",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 1491
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                }
+              },
               "icon": "CALENDARIUM",
               "title": "Calendarium"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       },
       {
         "id": "6ba16cfde8305489",
@@ -226,8 +280,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431,
-    "collapsed": true
+    "width": 431
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,6 +292,7 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
@@ -247,10 +301,11 @@
   },
   "active": "c7f806c37fd3fb7d",
   "lastOpenFiles": [
+    "content/blog/posts/Back again ....md",
+    "ttrpgs/TTRPGs Games Index.md",
     "TTRPGs/Test 2025-01-15/World.md",
     "ttrpgs/Test 2025-01-15/World.md",
     "ttrpgs/Test 2025-01-15",
-    "ttrpgs/TTRPGs Games Index.md",
     "TTRPGs/Test 2025-01-15",
     "templates/world.md",
     "Readme.md",
@@ -281,7 +336,6 @@
     "sources/Dungeons and Dragons/5e/Monster Manual",
     "sources/Dungeons and Dragons/5e/MCDM/Arcadia/Arcadia 19.md",
     "sources/Dungeons and Dragons/5e/MCDM/Arcadia/Arcadia Index.md",
-    "sources/Dungeons and Dragons/5e/MCDM/Arcadia/Arcadia 8.md",
     "sources/Dungeons and Dragons/5e/MCDM/Arcadia"
   ]
 }
