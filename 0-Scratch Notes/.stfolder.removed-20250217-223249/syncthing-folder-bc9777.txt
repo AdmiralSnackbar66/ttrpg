@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: hyefb-c26ee
+created: 2025-02-17T22:32:32Z

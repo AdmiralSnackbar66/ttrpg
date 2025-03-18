@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3607922944e91546",
+        "id": "0d988d1e5046ba47",
         "type": "tabs",
         "children": [
           {
-            "id": "8ea910079790734b",
+            "id": "b81faf4a85ca5345",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ttrpgs/Strixhaven/001_20250318.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "001_20250318"
+              "title": "New tab"
             }
           }
         ]
@@ -264,12 +260,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ttrpgs/Strixhaven/001_20250318.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 001_20250318"
+              "title": "Outgoing links"
             }
           }
         ],
@@ -293,16 +288,24 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "calendarium:Open Calendarium": false
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "8ea910079790734b",
+  "active": "b81faf4a85ca5345",
   "lastOpenFiles": [
+    "content/blog/posts/Back again ....md",
+    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "0-Scratch Notes/An adventure hook.md",
+    "0-Scratch Notes/Dragon related adventure hook.md",
+    "0-Scratch Notes/Add Random Notes Here.md",
+    "0-Scratch Notes/Random Dungeon.md",
+    "ttrpgs/Strixhaven/001_20250318.md",
+    "0-Scratch Notes/Wild Beyond Withclight Adventure Hook",
+    "0-Scratch Notes",
     "ttrpgs/Strixhaven/Extus Narr.md",
     "ttrpgs/Strixhaven/Oriq.md",
     "ttrpgs/Strixhaven/The Oriq.md",
     "ttrpgs/Strixhaven/Strixhaven Snarl.md",
-    "ttrpgs/Strixhaven/001_20250318.md",
     "ttrpgs/Strixhaven/Murgaxor Grenshel.md",
     "ttrpgs/Strixhaven/World.md",
     "ttrpgs/TTRPGs Games Index.md",
@@ -313,7 +316,6 @@
     "blog/posts.md",
     "blog",
     "content/Our Disney Adventure.md",
-    "content/blog/posts/Back again ....md",
     "TTRPGs/Test 2025-01-15/World.md",
     "ttrpgs/Test 2025-01-15/World.md",
     "ttrpgs/Test 2025-01-15",
@@ -321,18 +323,10 @@
     "templates/world.md",
     "Readme.md",
     "ttrpgs/New World/World.md",
-    "Vault Changelog.md",
-    "ttrpgs/Obsidia/World.md",
-    "ttrpgs/Obsidia/002_20230409.md",
-    "workflows/Using monster files.md",
-    "monsters/5e/Aalpamac.md",
     "sources/pdfs",
-    "workflows/Using Table of Contents for sourcebooks.md",
     "sources/Any",
     "sources/Pathfinder/2e",
     "sources/Pathfinder",
-    "sources/Dungeons and Dragons/5e/Tome of Mystical Tattoos",
-    "sources/Dungeons and Dragons/5e/Limitless Heroics",
-    "sources/Dungeons and Dragons/5e/Monster Manual"
+    "sources/Dungeons and Dragons/5e/Tome of Mystical Tattoos"
   ]
 }
