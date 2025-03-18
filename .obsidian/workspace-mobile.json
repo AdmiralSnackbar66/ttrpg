@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "530b74c2a8d47b07",
+        "id": "cf3570337d5d3aa3",
         "type": "tabs",
         "children": [
           {
-            "id": "973369ad2830ed90",
+            "id": "c6d62410c02a9d71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-Scratch Notes/Strixhaven Adventure Hooks.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Strixhaven Adventure Hooks"
+              "title": "New tab"
             }
           }
         ]
@@ -155,42 +151,12 @@
               "displayMoons": true
             }
           },
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "CALENDARIUM",
+          "title": "Calendarium"
         }
       },
       {
         "id": "b8625a976d4d40cc",
-        "type": "leaf",
-        "state": {
-          "type": "todo",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "75f77ba0e4e5ddaf",
-        "type": "leaf",
-        "state": {
-          "type": "DICE_ROLLER_VIEW",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "4005c3bbfc920ebe",
-        "type": "leaf",
-        "state": {
-          "type": "initiative-tracker-view",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "ab73fa02e9aa4bcf",
         "type": "leaf",
         "state": {
           "type": "todo",
@@ -200,7 +166,7 @@
         }
       },
       {
-        "id": "fb2bb20eb3c18b0e",
+        "id": "75f77ba0e4e5ddaf",
         "type": "leaf",
         "state": {
           "type": "DICE_ROLLER_VIEW",
@@ -210,7 +176,7 @@
         }
       },
       {
-        "id": "b7a20ed247fa56a1",
+        "id": "4005c3bbfc920ebe",
         "type": "leaf",
         "state": {
           "type": "initiative-tracker-view",
@@ -218,9 +184,19 @@
           "icon": "initiative-tracker",
           "title": "Initiative Tracker"
         }
+      },
+      {
+        "id": "a9252106b457e46d",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 6
+    "currentTab": 7
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,17 +208,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "calendarium:Open Calendarium": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "calendarium:Open Calendarium": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "973369ad2830ed90",
+  "active": "c6d62410c02a9d71",
   "lastOpenFiles": [
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "ttrpgs/TTRPGs Games Index.md",
