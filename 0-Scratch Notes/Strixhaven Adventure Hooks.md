@@ -10,3 +10,5 @@ Is Desmond a nutter?
 
 Yes I think he might be
 
+
+Trying out gitsync plugin
