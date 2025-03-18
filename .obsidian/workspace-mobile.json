@@ -14,11 +14,13 @@
               "type": "markdown",
               "state": {
                 "file": "Monsters.md",
+                "file": "0-Scratch Notes/Strixhaven Adventure Hooks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Monsters"
+              "title": "Strixhaven Adventure Hooks"
             }
           }
         ]
@@ -197,8 +199,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       },
       {
