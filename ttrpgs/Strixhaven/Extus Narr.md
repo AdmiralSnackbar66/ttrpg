@@ -8,7 +8,7 @@ date: 2025-03-18
 description: ""
 race: 
 gender: 
-class: 
+class:
 ---
 # [[Extus Narr]]
 
@@ -20,3 +20,54 @@ At some unknown point in time, he took control of [[The Oriq]] and began his pat
 
 He plans to launch an assault on Strixhaven to harness the power of the [[Strixhaven Snarl]]
 The assault on Strixhaven became the perfect misdirection for Extus’s true goals. During the ensuing chaos, Extus entered the Biblioplex and descended into the Hall of Oracles to harness the power of the Strixhaven Snarl, . Professor Onyx along with Will and Rowan Kenrith attempted to intervene, but the professor was translocated away while the twins were easily kept at bay. Having bound himself to the Snarl’s power, Extus successfully summoned the Blood Avatar, a being of war and destruction.  However, this would be his undoing, and he was killed in the fight by the very creature he had summoned.
+
+```statblock
+name: Extus Narr
+size: Medium
+type: Humanoid 
+subtype: Human
+alignment: Chaotic Evil
+ac: 17
+hp: 169
+hit_dice: 26d8 +57
+speed: 30
+stats: [12,16,15,15,18,20]
+saves:
+  - dexterity: 9
+  - intelligence: 8
+  - wisdom: 10
+  - charisma: 11
+skillsaves:
+  - arcana: 14
+  - deception: 17
+  - History: 8
+  - Intimidation: 17
+damage_vulnerabilities: 
+damage_resistances: 
+  - damage from spells
+damage_immunities: 
+condition_immunities: 
+  - charmed
+  - Frightened
+senses: 
+  - passive perception: 14
+languages: 
+  - Abysmal
+  - Common
+  - Deep speech
+  - Draconian
+  - Infernal
+  - Undercommon
+cr: 19
+traits:
+  - []
+spells:
+  - description
+  - spell level: spell-list
+actions:
+  - []
+legendary_actions:
+  - []
+reactions:
+  - []
+```
