@@ -50,7 +50,7 @@ condition_immunities:
   - charmed
   - Frightened
 senses: 
-  - passive perception: 14
+  - passive perception 14
 languages: 
   - Abysmal
   - Common
@@ -65,9 +65,16 @@ spells:
   - description
   - spell level: spell-list
 actions:
-  - []
+  - name: Multiattack
+    desc: "Extus makes 4 crackling beam attacks. He can use Spellcasting in place of one of the attacks"
+  - name: Crackling Beam
+    desc: Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage.
+  - name: Fiery Explosion (Recharge 4-6
+    desc:
 legendary_actions:
-  - []
+  - Magecraft Extus uses spellcasting
+  - Mind Shatter (Costs 2 Actions)
+  - Induce Nightmares (Costs 3 Actions)
 reactions:
   - []
 ```
