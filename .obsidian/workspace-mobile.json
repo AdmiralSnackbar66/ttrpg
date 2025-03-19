@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Scratch Notes/Starting the adventure.md",
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Starting the adventure"
+              "title": "Extus Narr"
             }
           }
         ]
@@ -234,8 +234,8 @@
   },
   "active": "c71a37e412956b59",
   "lastOpenFiles": [
-    "ttrpgs/Strixhaven/Extus Narr.md",
     "0-Scratch Notes/Starting the adventure.md",
+    "ttrpgs/Strixhaven/Extus Narr.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "Monsters.md",
     "General.md",
