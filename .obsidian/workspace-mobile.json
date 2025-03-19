@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd5ae83a420312b9",
+        "id": "27ae6df86307f9c6",
         "type": "tabs",
         "children": [
           {
-            "id": "c71a37e412956b59",
+            "id": "659e4d2b5ceb12eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -247,7 +247,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "c71a37e412956b59",
+  "active": "659e4d2b5ceb12eb",
   "lastOpenFiles": [
     "TTRPG Statblock Examples.md",
     "ttrpgs/Strixhaven/Extus Narr.md",
@@ -261,15 +261,10 @@
     "monsters/5e/Treant (A5E).md",
     "monsters/Pathfinder 2e/Shambler.md",
     "Starting the adventure.md",
-    "0-Scratch Notes/Starting the adventure.md",
-    "ttrpgs/Strixhaven/Extus Narr.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
-    "Monsters.md",
     "General.md",
     "ttrpgs/TTRPGs Games Index.md",
     "monsters/5e/Angel - archangel hala’ath.md",
-    "GM tools.md",
-    "monsters/5e/Treant.md",
     "ttrpgs/Strixhaven/World.md",
     "ttrpgs/Strixhaven/001_20250318.md",
     "monsters/5e/Shoggoth.md",
@@ -280,13 +275,6 @@
     "monsters/5e/Drake - Bathhouse.md",
     "monsters/5e/Chronomatic Enchancer.md",
     "monsters/5e/Ibingan - Lake.md",
-    "monsters/5e/Grisha.md",
-    "monsters/5e/Yathon.md",
-    "monsters/5e/Green Hag.md",
-    "monsters/5e/Orc Nurtured One of Yurtrus.md",
-    "monsters/5e/Grimlock Technical (A5E).md",
-    "monsters/5e/Adult Shadow Dragon Spellcaster (A5E).md",
-    "monsters/5e/Moonchild Naga.md",
     "monsters/5e",
     "monsters/Pathfinder 2e",
     "monsters",

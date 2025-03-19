@@ -68,13 +68,18 @@ actions:
   - name: Multiattack
     desc: "Extus makes 4 crackling beam attacks. He can use Spellcasting in place of one of the attacks"
   - name: Crackling Beam
-    desc: Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage.
-  - name: Fiery Explosion (Recharge 4-6
-    desc:
+    desc: "Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage."
+  - name: Fiery Explosion (Recharge 4-6)
+    desc: "Extus creates a magical explosion of fire centered on a point he can see within 120 feet of him. Each creature in a 20-foot-radius sphere centered on that point must make a DC 19 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one."
 legendary_actions:
-  - Magecraft Extus uses spellcasting
-  - Mind Shatter (Costs 2 Actions)
-  - Induce Nightmares (Costs 3 Actions)
+  - name: test
+    desc: "Extus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Extus regains spent legendary actions at the start of its turn."
+  - name: Magecraft
+    desc: "Extus uses spellcasting"
+  - name: Mind Shatter (Costs 2 Actions)
+    desc: "Extus blasts the mind of a creature that he can see within 120 feet of him, dealing 14 (4d6) psychic damage to it and forcing it to make a DC 19 Intelligence saving throw. On a failed save, the creature's Intelligence score is reduced to 0. The target is stunned until it regains at least one point of Intelligence. If a target's saving throw is successful or the effect ends for it, the target is immune to Extus's Mind Shatter for the next 24 hours."
+  - name: Induce Nightmares (Costs 3 Actions)
+    desc: "Extus torments a group of creatures with visions of their deepest fears and traumas. Each creature of Extus's choice within 30 feet of him must make a DC 19 Wisdom saving throw. On a failed save, a creature becomes frightened for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 reactions:
   - []
 ```
