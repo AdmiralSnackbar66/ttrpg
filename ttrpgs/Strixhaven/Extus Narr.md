@@ -27,7 +27,7 @@ size: Medium
 type: Humanoid 
 subtype: Human
 alignment: Chaotic Evil
-ac: 17
+ac: 17 (Unnatural Precognition)
 hp: 169
 hit_dice: 26d8 +57
 speed: 30
@@ -60,10 +60,19 @@ languages:
   - Undercommon
 cr: 19
 traits:
-  - []
+  - name: Legendary Resistance (3/Day)
+    desc: If Extus fails a saving throw, he can choose to succeed instead.
+  - name: Magic Resistance.
+    desc: Extus has advantage on saving throws against spells and other magical effects.
+  - name: Oriq Mask
+    desc: Extus wears an Oriq mask. While wearing the mask, Extus can't be targeted by any divination magic or perceived through magical scrying sensors, and he adds double his proficiency bonus to Charisma (Deception) checks (included above).
+  - name: Unnatural Precognition
+    desc: Extus's AC includes his Wisdom modifier while he isn't wearing armor or wielding a shield.
 spells:
-  - description
-  - spell level: spell-list
+  - Extus casts one of the following spells at 5th level, requiring no material components and using Charisma as the spellcasting ability (save DC 19, +11 to hit with spell attacks)
+  - (At-Will):  friends, levitate (self only), light, mage hand, thaumaturgy
+  -  3/day each: blindness/deafness, command, darkness
+  -  1/day each: banishment, bestow curse, stinking cloud
 actions:
   - name: Multiattack
     desc: "Extus makes 4 crackling beam attacks. He can use Spellcasting in place of one of the attacks"
@@ -72,10 +81,12 @@ actions:
   - name: Fiery Explosion (Recharge 4-6)
     desc: "Extus creates a magical explosion of fire centered on a point he can see within 120 feet of him. Each creature in a 20-foot-radius sphere centered on that point must make a DC 19 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one."
     desc: Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage.
-  - name: Fiery Explosion (Recharge 4-6
-    desc: 
+  - name: Death Curse (1/Day)
+    desc: "Extus compels one creature he can see within 60 feet of him to die instantly. If the creature has 100 hit points or fewer, it dies. Otherwise, there is no effect."
+
+   
 legendary_actions:
-  - name: test
+  - name: 
     desc: "Extus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Extus regains spent legendary actions at the start of its turn."
   - name: Magecraft
     desc: "Extus uses spellcasting"
@@ -84,5 +95,6 @@ legendary_actions:
   - name: Induce Nightmares (Costs 3 Actions)
     desc: "Extus torments a group of creatures with visions of their deepest fears and traumas. Each creature of Extus's choice within 30 feet of him must make a DC 19 Wisdom saving throw. On a failed save, a creature becomes frightened for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 reactions:
-  - []
+  - name: Scolding Inferno (3/day)
+    desc: "A creature that damages Extus is scorched by hellfire. The creature must make a DC 19 Dexterity saving throw, taking 33 (6d10) fire damage on a failed save, or half as much damage on a successful one."
 ```
