@@ -11,10 +11,14 @@
             "id": "c71a37e412956b59",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0-Scratch Notes/Starting the adventure.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Starting the adventure"
             }
           }
         ]
@@ -191,8 +195,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       },
       {
@@ -225,14 +229,13 @@
       "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "c71a37e412956b59",
+  "active": "2a4b92703839df12",
   "lastOpenFiles": [
-    "Starting the adventure.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "0-Scratch Notes/Starting the adventure.md",
     "Monsters.md",
     "General.md",
     "ttrpgs/TTRPGs Games Index.md",
