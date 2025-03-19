@@ -33,6 +33,8 @@
               },
               "icon": "lucide-file",
               "title": "TTRPG Statblock Examples"
+              "icon": "lucide-file",
+              "title": "Extus Narr"
             }
           }
         ]
@@ -209,8 +211,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       },
       {
@@ -243,7 +245,6 @@
       "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false
     }
   },
@@ -260,6 +261,7 @@
     "monsters/5e/Treant (A5E).md",
     "monsters/Pathfinder 2e/Shambler.md",
     "Starting the adventure.md",
+    "0-Scratch Notes/Starting the adventure.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "General.md",
     "ttrpgs/TTRPGs Games Index.md",
