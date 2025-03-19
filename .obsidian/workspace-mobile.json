@@ -228,11 +228,10 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "2a4b92703839df12",
+  "active": "c71a37e412956b59",
   "lastOpenFiles": [
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "0-Scratch Notes/Starting the adventure.md",
