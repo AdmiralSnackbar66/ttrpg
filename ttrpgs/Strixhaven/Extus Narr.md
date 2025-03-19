@@ -71,6 +71,9 @@ actions:
     desc: "Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage."
   - name: Fiery Explosion (Recharge 4-6)
     desc: "Extus creates a magical explosion of fire centered on a point he can see within 120 feet of him. Each creature in a 20-foot-radius sphere centered on that point must make a DC 19 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one."
+    desc: Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage.
+  - name: Fiery Explosion (Recharge 4-6
+    desc: 
 legendary_actions:
   - name: test
     desc: "Extus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Extus regains spent legendary actions at the start of its turn."
