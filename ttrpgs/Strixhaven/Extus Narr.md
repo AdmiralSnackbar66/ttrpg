@@ -70,7 +70,7 @@ actions:
   - name: Crackling Beam
     desc: Melee or Ranged Spell Attack. +11 to hit. Reach 120ft, one target. Hit 10 (1d10 + 5) force damage.
   - name: Fiery Explosion (Recharge 4-6
-    desc:
+    desc: 
 legendary_actions:
   - Magecraft Extus uses spellcasting
   - Mind Shatter (Costs 2 Actions)

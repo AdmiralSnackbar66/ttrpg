@@ -15,7 +15,7 @@
               "state": {
                 "file": "ttrpgs/Strixhaven/Extus Narr.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Extus Narr"
