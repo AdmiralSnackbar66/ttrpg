@@ -11,10 +11,12 @@
             "id": "cfe78a5efc14a814",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "assets/Mazfroth's Mighty Digressions.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Mazfroth's Mighty Digressions"
             }
           }
         ]
@@ -291,11 +293,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "assets/Mazfroth's Mighty Digressions.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Mazfroth's Mighty Digressions"
             }
           }
         ],
@@ -307,7 +310,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
