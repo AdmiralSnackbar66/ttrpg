@@ -11,10 +11,12 @@
             "id": "54f125f00312467f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "assets/Mazfroth's Mighty Digressions.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Mazfroth's Mighty Digressions"
             }
           }
         ]
@@ -94,6 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "assets/Mazfroth's Mighty Digressions.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,6 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "assets/Mazfroth's Mighty Digressions.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -125,6 +129,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "assets/Mazfroth's Mighty Digressions.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
