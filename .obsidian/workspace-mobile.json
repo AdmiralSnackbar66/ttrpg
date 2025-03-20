@@ -5,8 +5,23 @@
     "children": [
       {
         "id": "f020080463581dc0",
+        "id": "dd5ae83a420312b9",
         "type": "tabs",
         "children": [
+          {
+            "id": "c71a37e412956b59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Extus Narr"
+            }
+          },
           {
             "id": "6c01e83c2c3eb6eb",
             "type": "leaf",
@@ -191,8 +206,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       },
       {
@@ -225,12 +240,22 @@
       "obsidian-kanban:Create new board": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "6c01e83c2c3eb6eb",
-  "lastOpenFiles": [
+  "active": "c71a37e412956b59",
+    "assets/Mazfroth's Mighty Digressions.pdf",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
+    "assets/001_20230125 2023-01-25 23.37.18.excalidraw.md",
     "assets/Mazfroth's Mighty Digressions.pdf",
     "ttrpgs/Strixhaven/Extus Narr.md",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
@@ -245,18 +270,19 @@
     "monsters/5e/Treant (A5E).md",
     "monsters/Pathfinder 2e/Shambler.md",
     "Starting the adventure.md",
+    "0-Scratch Notes/Starting the adventure.md",
+    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "Monsters.md",
     "General.md",
     "ttrpgs/TTRPGs Games Index.md",
     "monsters/5e/Angel - archangel hala’ath.md",
+    "GM tools.md",
+    "monsters/5e/Treant.md",
     "ttrpgs/Strixhaven/World.md",
     "ttrpgs/Strixhaven/001_20250318.md",
     "monsters/5e/Shoggoth.md",
     "monsters/5e/Dragonclaw.md",
     "monsters/5e/Ogre - black sun.md",
-    "monsters/5e/Devouring angel.md",
-    "monsters/5e/Hobgoblin.md",
-    "monsters/5e/Drake - Bathhouse.md",
-    "monsters/5e/Chronomatic Enchancer.md",
     "monsters/5e",
     "monsters/Pathfinder 2e",
     "monsters",
@@ -275,6 +301,7 @@
     "assets",
     "systems/Mörk Borg/Mörk Borg rules",
     "systems/Mörk Borg/Mörk Borg Monsters",
-    "systems/Pathfinder 2e/Conditions"
+    "systems/Pathfinder 2e/Conditions",
+    "systems/Ironsworn"
   ]
 }
