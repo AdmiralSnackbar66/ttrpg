@@ -11,10 +11,14 @@
             "id": "6c01e83c2c3eb6eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ttrpgs/Strixhaven/001_20250318.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "001_20250318"
             }
           }
         ]
@@ -231,11 +235,12 @@
   },
   "active": "6c01e83c2c3eb6eb",
   "lastOpenFiles": [
-    "assets/Mazfroth's Mighty Digressions.pdf",
     "ttrpgs/Strixhaven/Extus Narr.md",
+    "ttrpgs/Strixhaven/001_20250318.md",
+    "0-Scratch Notes/Starting the adventure.md",
+    "assets/Mazfroth's Mighty Digressions.pdf",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "TTRPG Statblock Examples.md",
-    "0-Scratch Notes/Starting the adventure.md",
     "monsters/5e/A-mi-kuk.md",
     "templates/monster.md",
     "GM tools.md",
@@ -249,7 +254,6 @@
     "ttrpgs/TTRPGs Games Index.md",
     "monsters/5e/Angel - archangel hala’ath.md",
     "ttrpgs/Strixhaven/World.md",
-    "ttrpgs/Strixhaven/001_20250318.md",
     "monsters/5e/Shoggoth.md",
     "monsters/5e/Dragonclaw.md",
     "monsters/5e/Ogre - black sun.md",
