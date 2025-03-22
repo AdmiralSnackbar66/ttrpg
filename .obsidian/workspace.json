@@ -11,12 +11,14 @@
             "id": "cfe78a5efc14a814",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "assets/Mazfroth's Mighty Digressions.pdf"
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Mazfroth's Mighty Digressions"
+              "icon": "lucide-file",
+              "title": "Extus Narr"
             }
           }
         ]
@@ -293,12 +295,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/Mazfroth's Mighty Digressions.pdf",
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mazfroth's Mighty Digressions"
+              "title": "Outgoing links from Extus Narr"
             }
           }
         ],
@@ -330,6 +332,8 @@
   },
   "active": "cfe78a5efc14a814",
   "lastOpenFiles": [
+    "0-Scratch Notes/Starting the adventure.md",
+    "assets/Mazfroth's Mighty Digressions.pdf",
     "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "content/blog/posts/Back again ....md",
     "0-Scratch Notes/An adventure hook.md",
@@ -363,7 +367,6 @@
     "sources/pdfs",
     "sources/Any",
     "sources/Pathfinder/2e",
-    "sources/Pathfinder",
-    "sources/Dungeons and Dragons/5e/Tome of Mystical Tattoos"
+    "sources/Pathfinder"
   ]
 }
