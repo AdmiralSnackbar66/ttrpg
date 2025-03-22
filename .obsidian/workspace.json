@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ttrpgs/Strixhaven/Extus Narr.md",
+                "file": "blog/posts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extus Narr"
+              "title": "posts"
             }
           }
         ]
@@ -295,12 +295,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ttrpgs/Strixhaven/Extus Narr.md",
+                "file": "blog/posts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Extus Narr"
+              "title": "Outgoing links from posts"
             }
           }
         ],
@@ -332,9 +332,13 @@
   },
   "active": "cfe78a5efc14a814",
   "lastOpenFiles": [
+    "content/blog/posts/Not much to say ....md",
+    "blog/posts.md",
+    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "0-Scratch Notes/Other adventures whilst at strixhaven.md",
+    "ttrpgs/Strixhaven/Extus Narr.md",
     "0-Scratch Notes/Starting the adventure.md",
     "assets/Mazfroth's Mighty Digressions.pdf",
-    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
     "content/blog/posts/Back again ....md",
     "0-Scratch Notes/An adventure hook.md",
     "0-Scratch Notes/Dragon related adventure hook.md",
@@ -343,7 +347,6 @@
     "ttrpgs/Strixhaven/001_20250318.md",
     "0-Scratch Notes/Wild Beyond Withclight Adventure Hook",
     "0-Scratch Notes",
-    "ttrpgs/Strixhaven/Extus Narr.md",
     "ttrpgs/Strixhaven/Oriq.md",
     "ttrpgs/Strixhaven/The Oriq.md",
     "ttrpgs/Strixhaven/Strixhaven Snarl.md",
@@ -354,7 +357,6 @@
     "GM tools.md",
     "NPCs.md",
     "content/index.md",
-    "blog/posts.md",
     "blog",
     "content/Our Disney Adventure.md",
     "TTRPGs/Test 2025-01-15/World.md",
@@ -362,8 +364,6 @@
     "ttrpgs/Test 2025-01-15",
     "TTRPGs/Test 2025-01-15",
     "templates/world.md",
-    "Readme.md",
-    "ttrpgs/New World/World.md",
     "sources/pdfs",
     "sources/Any",
     "sources/Pathfinder/2e",
