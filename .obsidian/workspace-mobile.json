@@ -1,30 +1,20 @@
 {
   "main": {
-    "id": "8323cb83973f22c6",
+    "id": "608ee95f1b4b7065",
     "type": "split",
     "children": [
       {
-        "id": "2b4304c314537c94",
+        "id": "005af708c374236b",
         "type": "tabs",
         "children": [
           {
-            "id": "54f125f00312467f",
+            "id": "7170e42818bdd856",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ttrpgs/Strixhaven/001_20250318.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "001_20250318"
-              "type": "pdf",
-              "state": {
-                "file": "assets/Mazfroth's Mighty Digressions.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Mazfroth's Mighty Digressions"
+              "title": "New tab"
             }
           }
         ]
@@ -33,11 +23,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1d0d0a8280ca6010",
+    "id": "7e5e947e632e5663",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d2dd322ecbf351ef",
+        "id": "db22d610e219880a",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -50,7 +40,7 @@
         }
       },
       {
-        "id": "0411742a80e83205",
+        "id": "4da72d3d57db5952",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -67,7 +57,7 @@
         }
       },
       {
-        "id": "881293a2b0bc07fd",
+        "id": "f833b4fe1d34f2de",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -82,7 +72,7 @@
         }
       },
       {
-        "id": "e7678f63d599e500",
+        "id": "8431e74c63e8d476",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -95,16 +85,15 @@
     "currentTab": 0
   },
   "right": {
-    "id": "369b322b94aafb9a",
+    "id": "e88634f48597779c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ebfee4ae20f270ad",
+        "id": "fdae5d29add03911",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "assets/Mazfroth's Mighty Digressions.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,12 +107,11 @@
         }
       },
       {
-        "id": "b6a221323ba94a32",
+        "id": "a08fe17b3f0864f0",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "assets/Mazfroth's Mighty Digressions.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -132,12 +120,12 @@
         }
       },
       {
-        "id": "2df35fd0f71422ea",
+        "id": "34f40ad657822688",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "assets/Mazfroth's Mighty Digressions.pdf",
+            "file": "blog/posts.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -147,7 +135,7 @@
         }
       },
       {
-        "id": "9632e557a37fb5d7",
+        "id": "46b51e5cd04cacf2",
         "type": "leaf",
         "state": {
           "type": "todo",
@@ -157,7 +145,7 @@
         }
       },
       {
-        "id": "ae4ec2a23fb5196e",
+        "id": "a32d153368535bfe",
         "type": "leaf",
         "state": {
           "type": "DICE_ROLLER_VIEW",
@@ -167,7 +155,7 @@
         }
       },
       {
-        "id": "a79d576e3295d9ce",
+        "id": "9ef3045b02eeb272",
         "type": "leaf",
         "state": {
           "type": "initiative-tracker-view",
@@ -196,57 +184,10 @@
       "dbfolder:Create a new database table": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
+      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "6c01e83c2c3eb6eb",
-  "lastOpenFiles": [
-    "ttrpgs/Strixhaven/Extus Narr.md",
-    "ttrpgs/Strixhaven/001_20250318.md",
-    "0-Scratch Notes/Starting the adventure.md",
-    "assets/Mazfroth's Mighty Digressions.pdf",
-    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
-    "TTRPG Statblock Examples.md",
-    "monsters/5e/A-mi-kuk.md",
-    "templates/monster.md",
-    "GM tools.md",
-    "Monsters.md",
-    "monsters/5e/Treant.md",
-    "monsters/5e/Arborcyte.md",
-    "monsters/5e/Treant (A5E).md",
-    "monsters/Pathfinder 2e/Shambler.md",
-    "Starting the adventure.md",
-    "General.md",
-    "ttrpgs/TTRPGs Games Index.md",
-    "monsters/5e/Angel - archangel hala’ath.md",
-    "ttrpgs/Strixhaven/World.md",
-    "monsters/5e/Shoggoth.md",
-    "monsters/5e/Dragonclaw.md",
-    "monsters/5e/Ogre - black sun.md",
-    "monsters/5e/Devouring angel.md",
-    "monsters/5e/Hobgoblin.md",
-    "monsters/5e/Drake - Bathhouse.md",
-    "monsters/5e/Chronomatic Enchancer.md",
-    "monsters/5e",
-    "monsters/Pathfinder 2e",
-    "monsters",
-    "assets/ironsworn-examples-of-narration-and-moves.png",
-    "assets/ironsworn-progress-tracks.png",
-    "assets/ironsworn-experience.png",
-    "assets/ironsworn-momentum-track-negative.png",
-    "assets/ironsworn-companion-hawk.png",
-    "assets/ironsworn-combat-talent-swordmaster.png",
-    "assets/vault-of-bones.png",
-    "assets/ironsworn-paths-storyweaver.png",
-    "assets/ironsworn-flow-of-play.png",
-    "assets/ironsworn-vow-example-milestones.png",
-    "assets/20250308_173353 1.heic",
-    "assets/20250308_173353.heic",
-    "assets",
-    "systems/Mörk Borg/Mörk Borg rules",
-    "systems/Mörk Borg/Mörk Borg Monsters",
-    "systems/Pathfinder 2e/Conditions"
-  ]
-  "active": "54f125f00312467f",
+  "active": "db22d610e219880a",
   "lastOpenFiles": []
 }
