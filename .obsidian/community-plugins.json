@@ -29,5 +29,7 @@
   "quartz-syncer",
   "obsidian-mkdocs-publisher",
   "google-photos",
-  "obsidian-git"
+  "obsidian-git",
+  "auto-correct-capitals",
+  "copilot"
 ]
