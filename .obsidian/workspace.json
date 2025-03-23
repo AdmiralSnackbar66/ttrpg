@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0d12a6450f39623b",
+        "id": "8aa0f19d312bc437",
         "type": "tabs",
         "children": [
           {
-            "id": "cfe78a5efc14a814",
+            "id": "53a947ce0aa9b35a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/posts.md",
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "posts"
+              "title": "Extus Narr"
             }
           }
         ]
@@ -295,12 +295,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/posts.md",
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from posts"
+              "title": "Outgoing links from Extus Narr"
             }
           }
         ],
@@ -308,7 +308,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431
+    "width": 431,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -327,46 +328,47 @@
       "dbfolder:Create a new database table": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "cfe78a5efc14a814",
+  "active": "53a947ce0aa9b35a",
   "lastOpenFiles": [
-    "content/blog/posts/Not much to say ....md",
-    "blog/posts.md",
-    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
-    "0-Scratch Notes/Other adventures whilst at strixhaven.md",
+    "1-DM Toolkit/Home.md",
+    "1-DM Toolkit/DM Board.md",
+    "1-DM Toolkit/Vault Report.md",
+    "1-DM Toolkit/Travel Calculator.md",
+    "1-DM Toolkit/PF2e-DM Screen.md",
+    "1-DM Toolkit/Map Calculator.md",
+    "1-DM Toolkit/DnD5e-SideScreen-2024.md",
+    "1-DM Toolkit/Journey Board.md",
+    "1-DM Toolkit/DnD5e-SideScreen-2014.md",
+    "1-DM Toolkit/DnD5e-DM Screen-2014.md",
+    "1-DM Toolkit",
+    "TTRPG Statblock Examples.md",
     "ttrpgs/Strixhaven/Extus Narr.md",
-    "0-Scratch Notes/Starting the adventure.md",
-    "assets/Mazfroth's Mighty Digressions.pdf",
-    "content/blog/posts/Back again ....md",
-    "0-Scratch Notes/An adventure hook.md",
-    "0-Scratch Notes/Dragon related adventure hook.md",
-    "0-Scratch Notes/Add Random Notes Here.md",
-    "0-Scratch Notes/Random Dungeon.md",
-    "ttrpgs/Strixhaven/001_20250318.md",
-    "0-Scratch Notes/Wild Beyond Withclight Adventure Hook",
-    "0-Scratch Notes",
-    "ttrpgs/Strixhaven/Oriq.md",
-    "ttrpgs/Strixhaven/The Oriq.md",
-    "ttrpgs/Strixhaven/Strixhaven Snarl.md",
-    "ttrpgs/Strixhaven/Murgaxor Grenshel.md",
+    "templates/stats-5e.md",
+    "templates/Insert from Google photos.md",
+    "ttrpgs/Strixhaven/Elvis Parsley.md",
+    "blog/posts.md",
+    "blog",
     "ttrpgs/Strixhaven/World.md",
     "ttrpgs/TTRPGs Games Index.md",
-    "Monsters.md",
+    "ttrpgs/Strixhaven/001_20250318.md",
+    "ttrpgs/Strixhaven/Murgaxor Grenshel.md",
+    "0-Scratch Notes/Starting the adventure.md",
+    "0-Scratch Notes/Strixhaven Adventure Hooks.md",
+    "General.md",
     "GM tools.md",
-    "NPCs.md",
     "content/index.md",
-    "blog",
     "content/Our Disney Adventure.md",
-    "TTRPGs/Test 2025-01-15/World.md",
-    "ttrpgs/Test 2025-01-15/World.md",
+    "assets/Mazfroth's Mighty Digressions.pdf",
+    "0-Scratch Notes/Wild Beyond Withclight Adventure Hook",
+    "0-Scratch Notes",
     "ttrpgs/Test 2025-01-15",
     "TTRPGs/Test 2025-01-15",
-    "templates/world.md",
     "sources/pdfs",
     "sources/Any",
-    "sources/Pathfinder/2e",
-    "sources/Pathfinder"
+    "sources/Pathfinder/2e"
   ]
 }
