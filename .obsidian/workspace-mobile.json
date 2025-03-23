@@ -184,9 +184,9 @@
       "dbfolder:Create a new database table": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "obsidian-git:Open Git source control": false
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "db22d610e219880a",
+  "active": "7170e42818bdd856",
   "lastOpenFiles": []
 }
