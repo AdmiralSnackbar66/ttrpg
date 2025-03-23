@@ -11,10 +11,14 @@
             "id": "53a947ce0aa9b35a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Extus Narr"
             }
           }
         ]
@@ -291,11 +295,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ttrpgs/Strixhaven/Extus Narr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Extus Narr"
             }
           }
         ],
@@ -329,6 +334,17 @@
   },
   "active": "53a947ce0aa9b35a",
   "lastOpenFiles": [
+    "1-DM Toolkit/Home.md",
+    "1-DM Toolkit/DM Board.md",
+    "1-DM Toolkit/Vault Report.md",
+    "1-DM Toolkit/Travel Calculator.md",
+    "1-DM Toolkit/PF2e-DM Screen.md",
+    "1-DM Toolkit/Map Calculator.md",
+    "1-DM Toolkit/DnD5e-SideScreen-2024.md",
+    "1-DM Toolkit/Journey Board.md",
+    "1-DM Toolkit/DnD5e-SideScreen-2014.md",
+    "1-DM Toolkit/DnD5e-DM Screen-2014.md",
+    "1-DM Toolkit",
     "TTRPG Statblock Examples.md",
     "ttrpgs/Strixhaven/Extus Narr.md",
     "templates/stats-5e.md",
@@ -346,24 +362,13 @@
     "GM tools.md",
     "content/index.md",
     "content/Our Disney Adventure.md",
-    "README.md",
-    "Plot.md",
-    "content/blog/posts/Not much to say ....md",
-    "0-Scratch Notes/Other adventures whilst at strixhaven.md",
     "assets/Mazfroth's Mighty Digressions.pdf",
-    "content/blog/posts/Back again ....md",
-    "0-Scratch Notes/An adventure hook.md",
-    "0-Scratch Notes/Dragon related adventure hook.md",
-    "0-Scratch Notes/Add Random Notes Here.md",
-    "0-Scratch Notes/Random Dungeon.md",
     "0-Scratch Notes/Wild Beyond Withclight Adventure Hook",
     "0-Scratch Notes",
-    "ttrpgs/Strixhaven/Oriq.md",
     "ttrpgs/Test 2025-01-15",
     "TTRPGs/Test 2025-01-15",
     "sources/pdfs",
     "sources/Any",
-    "sources/Pathfinder/2e",
-    "sources/Pathfinder"
+    "sources/Pathfinder/2e"
   ]
 }
