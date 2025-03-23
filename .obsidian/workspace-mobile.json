@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "005af708c374236b",
+        "id": "ff61a283bec29546",
         "type": "tabs",
         "children": [
           {
-            "id": "7170e42818bdd856",
+            "id": "5ca63b6014591ff1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Scratch Notes/Other adventures whilst at strixhaven.md",
+                "file": "ttrpgs/Strixhaven/The Oriq.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Other adventures whilst at strixhaven"
+              "title": "The Oriq"
             }
           }
         ]
@@ -192,6 +192,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7170e42818bdd856",
-  "lastOpenFiles": []
+  "active": "5ca63b6014591ff1",
+  "lastOpenFiles": [
+    "ttrpgs/Strixhaven/World.md",
+    "ttrpgs/TTRPGs Games Index.md",
+    "ttrpgs/Strixhaven/The Oriq.md",
+    "0-Scratch Notes/Other adventures whilst at strixhaven.md"
+  ]
 }

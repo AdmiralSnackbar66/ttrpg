@@ -1,14 +1,14 @@
 ---
 type: 
-faction: 
+faction: The Oriq
 location: 
 world: Strixhaven
 campaign: Strixhaven
 date: 2025-03-18
-description: ""
+description: Faction
 race: 
 gender: 
-class: 
+class:
 ---
 # [[The Oriq]]
 

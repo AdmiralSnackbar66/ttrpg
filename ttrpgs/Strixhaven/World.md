@@ -30,7 +30,7 @@ SORT sessionNum ASC
 
 *Write down some facts about this campaign or the world that the characters find themselves in.*
 
-- 
+- The players will believe that [[ttrpgs/Strixhaven/Murgaxor Grenshel|Murgaxor Grenshel]] is the main villain as written in the published adventure however the main villain is actually [[ttrpgs/Strixhaven/Extus Narr|Extus Narr]] and [[ttrpgs/Strixhaven/The Oriq|The Oriq]]
 
 
 ## Factions
