@@ -91,7 +91,7 @@ const config: QuartzConfig = {
     ],
   }, 
 }
-filters: [Plugin.ExplicitPublish()],
+filters: [Plugin.ExplicitPublish()]
 
 
 export default config
