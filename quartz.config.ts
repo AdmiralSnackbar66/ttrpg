@@ -89,7 +89,9 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
-  },
+  }, 
 }
+filters: [Plugin.ExplicitPublish()],
+
 
 export default config
