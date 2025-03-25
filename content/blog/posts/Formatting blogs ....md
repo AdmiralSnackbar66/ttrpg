@@ -4,7 +4,6 @@ draft: false
 tags:
   - blog
 date: 2025-03-24
-enableTOC: "True"
 ---
 So I’ve been looking at the different frontmatter options for use within this site.  The format of the site needs some work so I’m going to try and make it my aim to do that over the next few days..
 

@@ -1,6 +1,5 @@
 ---
 title: Testing private notes ...
-draft: false
 tags:
   - blog
 date: 2025-03-25
