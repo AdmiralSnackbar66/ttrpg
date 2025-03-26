@@ -1,9 +1,10 @@
 {
-  "cssTheme": "AnuPpuccin",
-  "theme": "obsidian",
+  "cssTheme": "ITS Theme",
+  "theme": "system",
   "baseFontSize": 15,
   "accentColor": "",
   "enabledCssSnippets": [
     "Pathfinder2E-TTRPG-Statblock"
-  ]
+  ],
+  "showRibbon": false
 }

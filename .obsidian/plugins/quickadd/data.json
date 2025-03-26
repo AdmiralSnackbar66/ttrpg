@@ -101,6 +101,34 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "ce1e6848-3749-4ac1-a2fe-fc836004505a",
+      "name": "Template - Add character sheet",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/character-sheet.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value}}.md"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
