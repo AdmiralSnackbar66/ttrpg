@@ -26,5 +26,11 @@
   "anuppuccin-theme-settings@@anp-card-layout-actions": true,
   "anuppuccin-theme-settings@@anp-card-shadows": true,
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
-  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": false
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": false,
+  "ITS@@accent-color": false,
+  "ITS@@notion": false,
+  "ITS@@its-d": false,
+  "ITS@@select": "wotc-beyond",
+  "ITS@@slrvb-b": false,
+  "ITS@@s-d": false
 }
