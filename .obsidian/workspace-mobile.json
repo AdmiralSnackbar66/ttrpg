@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b22814a453acb2f",
+        "id": "03bd036189f479cb",
         "type": "tabs",
         "children": [
           {
-            "id": "ffee5916690c92f2",
+            "id": "ce80c409f31634cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0-Scratch Notes/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -186,11 +190,13 @@
       "dbfolder:Create a new database table": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "ffee5916690c92f2",
+  "active": "ce80c409f31634cb",
   "lastOpenFiles": [
+    "0-Scratch Notes/Untitled.md",
     "content/blog/posts/Testing private notes  ....md",
     "content/blog/posts/Formatting blogs ....md",
     "content/index.md",
